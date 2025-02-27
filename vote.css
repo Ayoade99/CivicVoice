@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+:root {
+     --blue: #407BFF;
+     --deepblue: #1B2559;
+     --grey: #EBEBEB;
+     --purple: #3F5071;
+     --whitesmoke: #F4F7FE;
+     --white: #FFFFFF;
+     --gray: #A798B2;
+     --lightblue: #9EB7E8;
+     --black: #000000;
+}
+
+nav ul {
+     display: flex;
+     list-style: none;
+}
+
+.logo {
+   padding-top: 4rem;
+   padding-left: 4rem;
+   padding-right: 85rem;
+}
+
+.logo img {
+     width: 20rem;
+}
+
+li {
+     padding-top: 4rem;
+     padding-left: 0.7rem;
+     padding-right: 0.7rem;
+}
+
+nav button {
+     background: none;
+     outline: none;
+     border: 1px solid var(--blue);
+     border-radius: 7px;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     padding-left: 1rem;
+     padding-right: 4rem;     
+     position: relative;
+}
+
+nav button a {
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 1.5rem;
+     color: var(--blue);
+}
+
+nav button img {
+    width: 3rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+}
+
+#vector {
+     margin-top: 1.4rem;
+}
+
+nav {
+     height: 20vh;
+}
+
+header {
+    height: 150vh;
+}
+
+.dashboard {
+    margin-left: 8rem;
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+
+.dashboard p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.dashboard img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.elections {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+} 
+
+.elections a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+
+.elections p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.elections img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.votes {
+    margin-left: 8rem;
+}
+
+.votes a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+
+.votes p {
+    background-color: var(--blue);
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.votes img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.users {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+}
+
+.users a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+
+.users p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.users img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.chats {
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+
+.chats a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+
+.chats p {
+    width: 15vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.chats img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.settings {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.settings a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+
+.settings p {
+    width: 15vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.settings img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.Log-out{
+     margin-top: 38rem;
+     margin-left: 5rem;
+}
+     
+.Log-out a {
+     text-decoration: none;
+     color: var(--gray);
+     font-size: 1.5rem;
+     font-weight: 400;
+     font-family: "Roboto", serif;
+     padding-left: 4rem;
+}
+ 
+.Log-out p {
+     width: 12vw;
+     padding-top: 1.2rem;
+     padding-bottom: 1.2rem;
+     border-radius: 10px;
+     position: relative;
+}
+ 
+ .Log-out img {
+     position: absolute;
+     top: 1rem;
+     left: 1rem;
+}
+ 
+.whole {
+    border-right: 0.5px solid var(--grey);
+    width: 20vw;
+    height: 150vh;
+}
+
+.whole2 {
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.candidates {
+     width: 70vw;
+     height: 130vh;
+     background-color: var(--blue);
+     border-radius: 10px;
+     padding: 1.5rem;
+     margin-left: 5rem;
+}
+
+.candidates h3 {
+     color: var(--white);
+     font-size: 4rem;
+     padding-top: 2rem;
+     padding-bottom: 1rem;
+     font-weight: 700;
+     font-family: "Roboto", serif;
+}
+
+.candidates p {
+     color: var(--white);
+     font-size: 2.4rem;
+     font-weight: 700;
+     font-family: "Roboto", serif;
+     padding-bottom: 2rem;
+}
+
+.warren {
+     width: 65vw;
+     height: 25vh;
+     background-color: var(--white);
+     border-radius: 7px;
+     position: relative;
+}
+
+.warren input {
+     position: absolute;
+     left: 1.5rem;
+     top: 5.5rem;
+     width: 3.5vw;
+     height: 6vh;
+}
+
+.warren h2 {
+     font-size: 3.2rem;
+     padding-top: 3rem;
+     padding-bottom: 1rem;
+     padding-left: 9rem;
+     font-weight: 500;
+}
+
+.warren h4 {
+     color: var(--lightblue);
+     font-size: 2.4rem;
+     padding-left: 9rem;
+     font-weight: 700;
+}
+
+.leslie {
+     width: 65vw;
+     height: 25vh;
+     background-color: var(--white);
+     border-radius: 7px;
+     position: relative;
+     margin: 1rem 0;
+}
+
+.leslie input {
+     position: absolute;
+     left: 1.5rem;
+     top: 5.5rem;
+     width: 3.5vw;
+     height: 6vh;
+}
+
+.leslie h2 {
+     font-size: 3.2rem;
+     padding-top: 3rem;
+     padding-bottom: 1rem;
+     padding-left: 9rem;
+     font-weight: 500;
+}
+
+.leslie h4 {
+     color: var(--lightblue);
+     font-size: 2.4rem;
+     padding-left: 9rem;
+     font-weight: 700;
+}
+
+.hawkins {
+     width: 65vw;
+     height: 25vh;
+     background-color: var(--white);
+     border-radius: 7px;
+     position: relative;
+     margin: 1rem 0;
+}
+
+.hawkins input {
+     position: absolute;
+     left: 1.5rem;
+     top: 5.5rem;
+     width: 3.5vw;
+     height: 6vh;
+}
+
+.hawkins h2 {
+     font-size: 3.2rem;
+     padding-top: 3rem;
+     padding-bottom: 1rem;
+     padding-left: 9rem;
+     font-weight: 500;
+}
+
+.hawkins h4 {
+     color: var(--lightblue);
+     font-size: 2.4rem;
+     padding-left: 9rem;
+     font-weight: 700;
+}
+
+.fox {
+     width: 65vw;
+     height: 25vh;
+     background-color: var(--white);
+     border-radius: 7px;
+     position: relative;
+     margin: 1rem 0;
+}
+
+.fox input {
+     position: absolute;
+     left: 1.5rem;
+     top: 5.5rem;
+     width: 3.5vw;
+     height: 6vh;
+}
+
+.fox h2 {
+     font-size: 3.2rem;
+     padding-top: 3rem;
+     padding-bottom: 1rem;
+     padding-left: 9rem;
+     font-weight: 500;
+}
+
+.fox h4 {
+     color: var(--lightblue);
+     font-size: 2.4rem;
+     padding-left: 9rem;
+     font-weight: 700;
+}
+
+.candidates .button {
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 5rem;
+     margin-right: 2rem;
+}
+
+.candidates button {
+     border: none;
+     background-color: var(--blue);
+     border-radius: 7px;
+     outline: none;
+     padding: 1.5rem 3rem;
+}
+
+.candidates button a {
+     text-decoration: none;
+     color: var(--white);
+     font-size: 1.5rem;
+     font-weight: 700;
+}

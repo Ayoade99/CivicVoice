@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+     background: var(--black);                                                         
+}
+ 
+html {
+     font-size: 62.5%;
+}
+
+:root {
+    --blue: #407BFF;
+    --deepblue: #1B2559;  
+    --blueviolet: #203156;
+    --grey: #F0ECF3; 
+    --purple: #193365;
+    --whitesmoke: #F4F7FE;
+    --white: #FFFFFF;
+    --gray: #A798B2;
+    --lightblue: #9EB7E8; 
+    --black: #000000;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.discussion {
+    width: 85vw;
+    height: 95vh;
+    background-color: var(--grey);
+    border-radius: 15px;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.discussion h3 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    font-family: "Roboto", serif;
+    color: var(--blue);
+}
+
+.discussion img {
+    position: absolute;
+    left: 4rem;
+    top: 3rem;
+}
+
+.cooper {
+    display: flex;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.cooper h3 {
+    color: var(--black);
+    font-size: 2.6rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    padding-left: 13rem;
+}
+
+.cooper p {
+    position: absolute;
+    top: 2rem;
+    left: 35rem;
+    font-size: 1.6rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+.cooper img {
+    position: absolute;
+    top: 0;
+    left: 3rem;
+}
+
+.jerome {
+    display: flex;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.jerome h3 {
+    color: var(--black);
+    font-size: 2.6rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    padding-left: 13rem;
+}
+
+.jerome p {
+    position: absolute;
+    top: 2rem;
+    left: 35rem;
+    font-size: 1.6rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+.jerome img {
+    position: absolute;
+    top: 0;
+    left: 3rem;
+}
+
+.hawkins {
+    display: flex;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.hawkins h3 {
+    color: var(--black);
+    font-size: 2.6rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    padding-left: 13rem;
+}
+
+.hawkins p {
+    position: absolute;
+    top: 2rem;
+    left: 35rem;
+    font-size: 1.6rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+.hawkins img {
+    position: absolute;
+    top: 0;
+    left: 3rem;
+}
+
+.ralph {
+    display: flex;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.ralph h3 {
+    color: var(--black);
+    font-size: 2.6rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    padding-left: 13rem;
+}
+
+.ralph p {
+    position: absolute;
+    top: 2rem;
+    left: 35rem;
+    font-size: 1.6rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+.ralph img {
+    position: absolute;
+    top: 0;
+    left: 3rem;
+}
+
+.inputs {
+    margin-top: 5rem;
+}
+
+.inputs input {
+    padding-left: 1.5rem;
+    padding-right: 88rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: var(--white);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 2rem;
+    cursor: text;
+}
+
+.images {
+    position: relative;
+}
+
+.images #look-top {
+    position: absolute;
+    top: -4.5rem;
+    left: 95rem;
+}
+
+.images #vector2x {
+    width: 2.1rem;
+    position: absolute;
+    top: -4.3rem;
+    left: 99rem;
+}
+
+.images #vector-up {
+    position: absolute;
+    top: -4.5rem;
+    left: 104rem;
+}

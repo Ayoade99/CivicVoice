@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+:root {
+     --lightblue: #C2C9D1;
+     --blue: #407BFF;
+     --deepblue: #1B2559;
+     --grey: #EBEBEB;
+     --purple: #3F5071;
+     --whitesmoke: #F4F7FE;
+     --white: #FFFFFF;
+     --gray: #6B6C6F;
+     --blueviolet: #1A2640;
+     --black: #000000;
+}
+
+header {
+    height: 100vh;
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    height: 90vh;
+    width: 70vw;
+    background-color: var(--white);
+    margin-top: 3rem;   
+}
+
+form h2 {
+    color: var(--white);
+    background-color: var(--blue);
+    min-height: 7vh;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Open Sans", serif;
+    padding: 1rem 0;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.poll h3 {
+    color: var(--purple);
+    font-size: 3rem;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    padding-top: 2rem;
+}
+
+form button {
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 2.5rem;
+}
+
+.btn .cancel-btn {
+    color: var(--blue);
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1rem;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+}
+
+
+.btn .save-btn {
+    color: var(--white);
+    background-color: var(--blue);
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1rem;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+}
+
+.btn .create-poll {
+    background: none;
+    outline: none;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 4rem;     
+    margin-right: 3rem;
+    position: relative;
+}
+
+.btn .create-poll a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+
+.btn .create-poll img {
+   width: 3rem;
+   position: absolute;
+   top: 0.3rem;
+   right: 0.5rem;
+}
+
+form input {
+    background: var(--gray);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 25rem;
+    border: 1px solid var(--purple);
+    border-radius: 10px;
+    outline: none;
+    pointer-events: none;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+#text2 {
+    margin-left: 2rem;
+}
+
+form ::placeholder {
+    color: var(--grey);
+    font-size: 1.5rem;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+}
+
+form label {
+    font-size: 2.5rem;
+    color: var(--purple);
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+}
+
+.label-wrap {
+    position: relative;
+}
+
+form label[for*="title"] {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+}
+
+
+form label[for*="description"] {
+    position: absolute;
+    top: 0;
+    right: 33rem;
+}
+
+form label[for*="start time"] {
+    position: absolute;
+    top: 13rem;
+    left: 2rem;
+}
+
+form label[for*="end time"] {
+    position: absolute;
+    top: 13rem;
+    right: 37rem;
+}
+
+form label[for*="start date"] {
+    position: absolute;
+    top: 27rem;
+    left: 2rem;
+}
+
+form label[for*="end date"] {
+    position: absolute;
+    top: 27rem;
+    right: 37rem;
+}
+
+

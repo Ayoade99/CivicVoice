@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+     background-color: var(--black);
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+:root {
+     --blue: #407BFF;
+     --white: #FFFFFF;
+     --gray: #737986;
+     --black: #000000;
+     --grey: #3F5071;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    width: 45vw;
+    height: 50vh;
+    background: var(--white);
+    margin-top: 15rem;
+}
+
+.review h2 {
+    color: var(--white);
+    background-color: var(--blue);
+    height: 10vh;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.review h3 {
+    color: var(--grey);
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+.review input {
+    margin-left: 3rem;
+    padding-left: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 35rem;
+    background: var(--gray);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.review input::placeholder {
+    color: var(--white);
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: "Poppins", serif; 
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+    margin-right: 4.5rem;
+}
+
+.button button {
+    background-color: var(--blue);
+    outline: none;
+    border: none;
+    padding: 1.5rem 3rem;
+    margin: 0 1rem;
+    border-radius: 7px;  
+}
+
+.button button a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+}

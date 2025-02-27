@@ -1,0 +1,634 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+:root {
+     --blue: #407BFF;
+     --deepblue: #1B2559;
+     --grey: #EBEBEB;
+     --purple: #3F5071;
+     --whitesmoke: #F4F7FE;
+     --white: #FFFFFF;
+     --gray: #A798B2;
+     --lightblue: #9EB7E8;
+     --black: #000000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 85rem;
+}
+
+.logo img {
+    width: 20rem;
+}
+
+li {
+    padding-top: 4rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+nav button {
+    background: none;
+    outline: none;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 4rem;     
+    position: relative;
+}
+
+nav button a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+
+nav button img {
+   width: 3rem;
+   position: absolute;
+   top: 0.3rem;
+   right: 0.5rem;
+}
+
+#vector {
+    margin-top: 1.4rem;
+}
+
+nav {
+    height: 20vh;
+}
+
+header {
+   height: 120vh;
+}
+
+.dashboard {
+   margin-left: 8rem;
+}
+
+.dashboard a {
+   text-decoration: none;
+   color: var(--gray);
+   font-size: 1.7rem;
+   font-weight: 400;
+   font-family: "Roboto", serif;
+   padding-left: 4rem;
+}
+
+.dashboard p {
+   width: 10vw;
+   padding-top: 1.2rem;
+   padding-bottom: 1.2rem;
+   border-radius: 10px;
+   position: relative;
+}
+
+.dashboard img {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+}
+
+.elections {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   margin-left: 8rem;
+} 
+
+.elections a {
+   text-decoration: none;
+   color: var(--gray);
+   font-size: 1.5rem;
+   font-weight: 400;
+   font-family: "Roboto", serif;
+   padding-left: 4rem;
+}
+
+.elections p {
+   width: 10vw;
+   padding-top: 1.2rem;
+   padding-bottom: 1.2rem;
+   border-radius: 10px;
+   position: relative;
+}
+
+.elections img {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+}
+
+.votes {
+   margin-left: 8rem;
+}
+
+.votes a {
+   text-decoration: none;
+   color: var(--white);
+   font-size: 1.5rem;
+   font-weight: 400;
+   font-family: "Roboto", serif;
+   padding-left: 4rem;
+}
+
+.votes p {
+   background-color: var(--blue);
+   width: 10vw;
+   padding-top: 1.2rem;
+   padding-bottom: 1.2rem;
+   border-radius: 10px;
+   position: relative;
+}
+
+.votes img {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+}
+
+.users {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   margin-left: 8rem;
+}
+
+.users a {
+   text-decoration: none;
+   color: var(--gray);
+   font-size: 1.5rem;
+   font-weight: 400;
+   font-family: "Roboto", serif;
+   padding-left: 4rem;
+}
+
+.users p {
+   width: 10vw;
+   padding-top: 1.2rem;
+   padding-bottom: 1.2rem;
+   border-radius: 10px;
+   position: relative;
+}
+
+.users img {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+}
+
+.chats {
+   margin-top: 7rem;
+   margin-left: 5rem;
+}
+
+.chats a {
+   text-decoration: none;
+   color: var(--gray);
+   font-size: 1.5rem;
+   font-weight: 400;
+   font-family: "Roboto", serif;
+   padding-left: 4rem;
+}
+
+.chats p {
+   width: 15vw;
+   padding-top: 1.2rem;
+   padding-bottom: 1.2rem;
+   border-radius: 10px;
+   position: relative;
+}
+
+.chats img {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+}
+
+.settings {
+   margin-top: 2rem;
+   margin-left: 5rem;
+}
+
+.settings a {
+   text-decoration: none;
+   color: var(--gray);
+   font-size: 1.5rem;
+   font-weight: 400;
+   font-family: "Roboto", serif;
+   padding-left: 4rem;
+}
+
+.settings p {
+   width: 15vw;
+   padding-top: 1.2rem;
+   padding-bottom: 1.2rem;
+   border-radius: 10px;
+   position: relative;
+}
+
+.settings img {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+}
+
+.whole {
+   border-right: 0.5px solid var(--grey);
+   width: 20vw;
+   height: 120vh;
+}
+
+.whole2 {
+   width: 100%;
+}
+
+.flexbox {
+   display: flex;
+   justify-content: space-around;
+}
+
+.leaderboard h3{
+    font-size: 3rem;
+    padding-left: 5rem;
+    font-family: "Roboto", serif;
+}
+
+.transparency {
+    width: 75vw;
+    height: 100vh;
+    background-color: var(--blue);
+    border-radius: 25px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    padding-left: 3rem;
+    font-family: "Roboto", serif;
+}
+
+.participant {
+    display: flex;
+    padding-top: 3rem;
+    height: 10vh;
+    width: 70vw;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+    position: relative;
+}
+
+.participant h3 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 0.5rem;
+
+}
+
+.participant #names {
+    position: absolute;
+    left: 10rem;
+}
+
+.participant #time {
+    position: absolute;
+    left: 50rem;
+}
+
+.participant #score {
+    position: absolute;
+    left: 62rem;
+}
+
+.participant #pole {
+    position: absolute;
+    right: 3rem;
+}
+
+.participant input {
+     width: 2.3vw;
+     height: 5vh;
+     background-color: var(--blue);
+     outline: none;
+     border: 2px solid var(--white);
+     border-radius: 7px;
+     pointer-events: none;
+}
+
+
+.participant2 {
+    display: flex;
+    padding-top: 3rem;
+    height: 15vh;
+    width: 70vw;
+    background-color: var(--white);
+    border-radius: 7px;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.participant2 input {
+    position: absolute;
+    left: 2rem;
+    width: 2.3vw;
+    height: 5vh;
+    background-color: var(--white);
+    outline: none;
+    border: 2px solid var(--black);
+    border-radius: 7px;
+    pointer-events: none;
+}
+
+.participant2 h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.participant2 #names {
+    position: absolute;
+    top: 2rem;
+    left: 19rem;
+    color: var(--purple);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.participant2 #names span {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.participant2 h2 img {
+    position: absolute;
+    top: 1.2rem;
+    left: 11rem;
+}
+
+.participant2 #time {
+    position: absolute;
+    left: 52rem;
+    top: 4rem;
+}
+
+.participant2 #score {
+    position: absolute;
+    top: 4rem;
+    left: 64rem;
+}
+
+.participant2 #pole {
+    position: absolute;
+    top: 3.5rem;
+    right: 7rem;
+    font-size: 2rem;
+    font-size: 400;
+}
+
+.participant2 #pole img {
+    position: absolute;
+    top: 0;
+    margin-left: 0.5rem;
+}
+
+.participant3 {
+   display: flex;
+   padding-top: 3rem;
+   height: 15vh;
+   width: 70vw;
+   border-radius: 7px;
+   margin-bottom: 4rem;
+   margin-left: 1rem;
+   position: relative;
+}
+
+.participant3 input {
+   position: absolute;
+   left: 2rem;
+   width: 2.3vw;
+   height: 5vh;
+   background: none;
+   outline: none;
+   border: 2px solid var(--white);
+   border-radius: 7px;
+   pointer-events: none;
+}
+
+.participant3 h3 {
+   color: var(--white);
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+.participant3 #names {
+   position: absolute;
+   top: 2rem;
+   left: 19rem;
+   color: var(--white);
+   font-size: 2rem;
+   font-weight: 600;
+}
+
+.participant3 #names span {
+   font-size: 1.6rem;
+   font-weight: 400;
+}
+
+.participant3 h2 img {
+   position: absolute;
+   top: 1.2rem;
+   left: 11rem;
+}
+
+.participant3 #time {
+   position: absolute;
+   left: 52rem;
+   top: 4rem;
+}
+
+.participant3 #score {
+   position: absolute;
+   top: 4rem;
+   left: 64rem;
+}
+
+.participant3 #pole {
+   position: absolute;
+   top: 3.5rem;
+   right: 7rem;
+   font-size: 2rem;
+   font-size: 400;
+}
+
+.participant3 #pole img {
+   position: absolute;
+   top: 0;
+   margin-left: 0.5rem;
+}
+
+.participant4 {
+   display: flex;
+   padding-top: 3rem;
+   height: 15vh;
+   width: 70vw;
+   border-radius: 7px;
+   margin-bottom: 4rem;
+   margin-left: 1rem;
+   position: relative;
+}
+
+.participant4 input {
+   position: absolute;
+   left: 2rem;
+   width: 2.3vw;
+   height: 5vh;
+   background: none;
+   outline: none;
+   border: 2px solid var(--white);
+   border-radius: 7px;
+   pointer-events: none;
+}
+
+.participant4 h3 {
+   color: var(--white);
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+.participant4 #names {
+   position: absolute;
+   top: 2rem;
+   left: 19rem;
+   color: var(--white);
+   font-size: 2rem;
+   font-weight: 600;
+}
+
+.participant4 #names span {
+   font-size: 1.6rem;
+   font-weight: 400;
+}
+
+.participant4 h2 img {
+   position: absolute;
+   top: 1.2rem;
+   left: 11rem;
+}
+
+.participant4 #time {
+   position: absolute;
+   left: 52rem;
+   top: 4rem;
+}
+
+.participant4 #score {
+   position: absolute;
+   top: 4rem;
+   left: 64rem;
+}
+
+.participant4 #pole {
+   position: absolute;
+   top: 3.5rem;
+   right: 7rem;
+   font-size: 2rem;
+   font-size: 400;
+}
+
+.participant4 #pole img {
+   position: absolute;
+   top: 0;
+   margin-left: 0.5rem;
+}
+
+.participant5 {
+   display: flex;
+   padding-top: 3rem;
+   height: 15vh;
+   width: 70vw;
+   border-radius: 7px;
+   margin-bottom: 4rem;
+   margin-left: 1rem;
+   position: relative;
+}
+
+.participant5 input {
+   position: absolute;
+   left: 2rem;
+   width: 2.3vw;
+   height: 5vh;
+   background: none;
+   outline: none;
+   border: 2px solid var(--white);
+   border-radius: 7px;
+   pointer-events: none;
+}
+
+.participant5 h3 {
+   color: var(--white);
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+.participant5 #names {
+   position: absolute;
+   top: 2rem;
+   left: 19rem;
+   color: var(--white);
+   font-size: 2rem;
+   font-weight: 600;
+}
+
+.participant5 #names span {
+   font-size: 1.6rem;
+   font-weight: 400;
+}
+
+.participant5 h2 img {
+   position: absolute;
+   top: 1.2rem;
+   left: 11rem;
+}
+
+.participant5 #time {
+   position: absolute;
+   left: 52rem;
+   top: 4rem;
+}
+
+.participant5 #score {
+   position: absolute;
+   top: 4rem;
+   left: 64rem;
+}
+
+.participant5 #pole {
+   position: absolute;
+   top: 3.5rem;
+   right: 7rem;
+   font-size: 2rem;
+   font-size: 400;
+}
+
+.participant5 #pole img {
+   position: absolute;
+   top: 0;
+   margin-left: 0.5rem;
+}

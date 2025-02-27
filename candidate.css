@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+:root {
+     --blue: #407BFF;
+     --deepblue: #1B2559;  
+     --blueviolet: #203156;
+     --grey: #B2B7C1; 
+     --purple: #193365;
+     --whitesmoke: #F4F7FE;
+     --white: #FFFFFF;
+     --gray: #A798B2;
+     --lightblue: #9EB7E8; 
+     --black: #000000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 85rem;
+}
+
+.logo img {
+    width: 20rem;
+}
+
+li {
+    padding-top: 4rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+nav button {
+    background: none;
+    outline: none;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 4rem;     
+    position: relative;
+}
+
+nav button a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+
+nav button img {
+   width: 3rem;
+   position: absolute;
+   top: 0.3rem;
+   right: 0.5rem;
+}
+
+#vector {
+    margin-top: 1.4rem;
+}
+
+nav {
+    height: 20vh;
+}
+
+header {
+   height: 200vh;
+}
+
+.dashboard {
+    margin-left: 8rem;
+ }
+ 
+.dashboard a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.dashboard p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.dashboard img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.elections {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+} 
+ 
+.elections a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.elections p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.elections img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.votes {
+    margin-left: 8rem;
+}
+ 
+.votes a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.votes p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.votes img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.users {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+}
+ 
+.users a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.users p {
+    background-color: var(--blue);
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.users img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.chats {
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+ 
+.chats a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.chats p {
+    width: 15vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.chats img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.settings {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+ 
+.settings a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.settings p {
+    width: 15vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.settings img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.Log-out{
+    margin-top: 75rem;
+    margin-left: 5rem;
+}
+    
+.Log-out a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+
+.Log-out p {
+    width: 12vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Log-out img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.whole {
+    border-right: 0.5px solid var(--grey);
+    width: 20vw;
+    height: 200vh;
+}
+ 
+.whole2 {
+    width: 100%;
+}
+ 
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.search {
+    position: relative;
+}
+
+.search input {
+    background-image: url('Images/Vector\ magnify.png');
+    background-repeat: no-repeat;
+    background-position: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 50rem;
+    margin-left: 4rem;
+    outline: none;
+    border: 1px solid var(--grey);
+    border-radius: 15px;
+    cursor: text;
+}
+
+.search input::placeholder {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: "Poppins", serif; 
+}
+
+.search img {
+    position: absolute;
+    top: 1.5rem;
+    right: 16rem;
+}
+
+.search h3 {
+    color: var(--blueviolet);
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Poppins", serif; 
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.wade {
+    width: 66vw;
+    height: 40vh;
+    border: 1px solid var(--lightblue);
+    font-family: "Poppins", serif; 
+    border-radius: 10px;
+    margin-left: 4rem;
+    padding: 2rem;
+}
+
+.wade h3 a{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--purple);
+    padding-top: 1rem;
+}
+
+
+
+.wade h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--lightblue);
+}
+
+.wade h5 {
+    color: var(--lightblue);
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}
+
+.wade p {
+    color: var(--lightblue);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.leslie {
+    width: 66vw;
+    height: 40vh;
+    border: 1px solid var(--lightblue);
+    font-family: "Poppins", serif; 
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.leslie h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--purple);
+    padding-top: 1rem;
+}
+
+.leslie h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--lightblue);
+}
+
+.leslie h5 {
+    color: var(--lightblue);
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}
+
+.leslie p {
+    color: var(--lightblue);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.hawkins {
+    width: 66vw;
+    height: 40vh;
+    border: 1px solid var(--lightblue);
+    font-family: "Poppins", serif; 
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+.hawkins h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--purple);
+    padding-top: 1rem;
+}
+
+.hawkins h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--lightblue);
+}
+
+.hawkins h5 {
+    color: var(--lightblue);
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}
+
+.hawkins p {
+    color: var(--lightblue);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.fox {
+    width: 66vw;
+    height: 40vh;
+    border: 1px solid var(--lightblue);
+    font-family: "Poppins", serif; 
+    border-radius: 10px;
+    margin-left: 4rem;
+    padding: 2rem;
+}
+
+.fox h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--purple);
+    padding-top: 1rem;
+}
+
+.fox h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--lightblue);
+}
+
+.fox h5 {
+    color: var(--lightblue);
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}
+
+.fox p {
+    color: var(--lightblue);
+    font-weight: 700;
+    font-size: 1.6rem;
+}

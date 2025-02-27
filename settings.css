@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+:root {
+     --blue: #407BFF;
+     --deepblue: #172951;  
+     --blueviolet: #2E374A;
+     --grey: #C7CAD0; 
+     --purple: #193365;
+     --whitesmoke: #F4F7FE;
+     --white: #FFFFFF;
+     --gray: #A798B2;
+     --lightblue: #9EB7E8; 
+     --black: #000000;
+     --ash: #6B6C6F;
+     --darkgrey: #EBEBEB;
+     --green: #2FF37E;
+     --red: #BF1B1E;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 85rem;
+}
+
+.logo img {
+    width: 20rem;
+}
+
+li {
+    padding-top: 4rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+nav button {
+    background: none;
+    outline: none;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 4rem;     
+    position: relative;
+}
+
+nav button a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+
+nav button img {
+   width: 3rem;
+   position: absolute;
+   top: 0.3rem;
+   right: 0.5rem;
+}
+
+#vector {
+    margin-top: 1.4rem;
+}
+
+nav {
+    height: 20vh;
+}
+
+header {
+   height: 220vh;
+}
+
+.dashboard {
+    margin-left: 8rem;
+ }
+ 
+.dashboard a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.dashboard p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.dashboard img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.elections {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+} 
+ 
+.elections a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.elections p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.elections img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.votes {
+    margin-left: 8rem;
+}
+ 
+.votes a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.votes p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.votes img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.users {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+}
+ 
+.users a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.users p {
+    width: 10vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.users img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.chats {
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+ 
+.chats a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.chats p {
+    width: 15vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.chats img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+ 
+.settings {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+ 
+.settings a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+ 
+.settings p {
+    background-color: var(--blue);
+    width: 12vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.settings img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.Log-out{
+    margin-top: 85rem;
+    margin-left: 5rem;
+}
+    
+.Log-out a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-left: 4rem;
+}
+
+.Log-out p {
+    width: 12vw;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Log-out img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.whole {
+    border-right: 0.5px solid var(--grey);
+    width: 20vw;
+    height: 220vh;
+}
+ 
+.whole2 {
+    width: 100%;
+}
+ 
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.account {
+    margin-left: 3rem;
+}
+
+.account h3 {
+    color: var(--deepblue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.account p {
+    color: var(--deepblue);
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 4rem;
+}
+
+.account h4 {
+    font-size: 1.8rem;
+    color: var(--deepblue);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.account h5 {
+    color: var(--deepblue);
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.button {
+    margin-top: 8rem;
+    margin-right: 2rem;
+}
+
+.button button a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.button button {
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+}
+
+.wrap {
+    width: 95%;
+    border-bottom: 1px solid var(--blue);
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.phone {
+    margin-left: 3rem;
+}
+
+.phone p {
+    color: var(--deepblue);
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.phone h4 {
+    font-size: 1.8rem;
+    color: var(--deepblue);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.button2 {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.button2 button {
+    color: var(--blue);
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+}
+
+.verification {
+    margin-left: 3rem;
+}
+
+.verification p {
+    color: var(--deepblue);
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.verification h3 {
+    color: var(--deepblue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.verification h4 {
+    font-size: 1.8rem;
+    color: var(--deepblue);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.button3 {
+    margin-top: 8rem;
+    margin-right: 2rem;
+}
+
+.button3 button {
+    color: var(--blue);
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+}
+
+.authenticate {
+    margin-left: 3rem;
+}
+
+.authenticate p {
+    color: var(--deepblue);
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.authenticate h4 {
+    font-size: 1.8rem;
+    color: var(--deepblue);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.button4 {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.button4 button {
+    color: var(--blue);
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+}
+
+.notification {
+    margin-left: 3rem;
+}
+
+.notification h3 {
+    color: var(--deepblue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 3rem;
+}
+
+.button5 {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.button5 button {
+    color: var(--blue);
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+}
+
+.reminder {
+    margin-left: 3rem;
+}
+
+.reminder h4 {
+    font-size: 1.8rem;
+    color: var(--deepblue);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.button6 button {
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    background: none;
+    border: none;
+    padding-top: 1.5rem;
+}
+
+.button6 {
+    margin-right: 2rem;
+}
+
+.button6 .turn-on {
+     color: var(--green);
+}
+
+.button6 .turn-off {
+    color: var(--red);
+}
+
+.sessions {
+    margin-left: 3rem;
+}
+
+.sessions h4 {
+    font-size: 1.8rem;
+    color: var(--deepblue);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.sessions h3 {
+    color: var(--deepblue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.button7 {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.button7 button {
+    color: var(--blue);
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+}
+
+.current {
+    margin-left: 3rem;
+}
+
+.current h4 {
+    font-size: 1.8rem;
+    color: var(--deepblue);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.current p {
+    color: var(--deepblue);
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.button8 {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.button8 button {
+    color: var(--blue);
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+}
+
+.wrap2 {
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    margin: 2rem 3rem;
+}

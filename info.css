@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+}
+ 
+html {
+     font-size: 62.5%;
+}
+
+:root {
+    --black: #000000;
+    --lightblue: #12409633;
+     --blue: #407BFF;
+     --deepblue: #124096CC;
+     --grey: #C7CAD0;
+     --purple: #3F5071;
+     --whitesmoke: #F6F6F9;
+     --white: #F0ECF3;
+     --gray: #C8BCCE; 
+     --blueviolet: #1A2640;
+}
+
+header {
+    height: 120vh;
+}
+
+.personal {
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+
+.personal h3{
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    font-family: "Roboto", serif;
+}
+
+.personal p {
+    border-bottom: 1px solid var(--black);
+    width: 70vw;
+}
+
+form {
+    margin-top: 3rem;
+    margin-left: 20rem;
+}
+
+form input {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 25rem;
+    border: 1px solid var(--grey);
+    outline: none;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+form #lastname {
+    margin-left: 8rem;
+}
+
+form #address {
+    margin-left: 8rem;
+}
+
+form #state {
+    background-image: url('/Images/ri_arrow-drop-down-line.png');
+    background-repeat: no-repeat;
+    background-position: 40rem;
+    margin-left: 8rem;
+}
+
+form #city {
+    background-image: url('/Images/ri_arrow-drop-down-line.png');
+    background-repeat: no-repeat;
+    background-position: 40rem;
+}
+
+::placeholder {
+    font-size: 1.5rem;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    color: var(--gray);
+
+}
+.label-wrap {
+    position: relative;
+}
+
+form label {
+    font-size: 1.7rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+   
+}
+
+form label[for*="firstname"] {
+     position: absolute;
+     top: 0;
+     left: 0;
+}
+
+form label[for*="lastname"] {
+    position: absolute;
+    top: 0;
+    left: 52rem;
+}
+
+form label[for*="dob"] {
+    position: absolute;
+    top: 12.5rem;
+    left: 0;
+}
+
+form label[for*="address"] {
+    position: absolute;
+    top: 12.5;
+    left: 52rem;
+}
+
+form label[for*="city"] {
+    position: absolute;
+    top: 12.5;
+    left: 0;
+}
+
+form label[for*="state"] {
+    position: absolute;
+    top: 25.5rem;
+    left: 52rem;
+}
+
+form label[for*="number"] {
+    position: absolute;
+    top: 38rem;
+    left: 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.button button {
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.6rem;
+    padding: 1.5rem 3rem;
+    margin-left: 3rem;
+}
+
+.button .back {
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    background-color: var(--lightblue);
+}
+
+.button .back a {
+    color: var(--deepblue);
+    text-decoration: none;
+}
+
+.button .submit {
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    background-color: var(--blue);
+}
+
+.button .submit a {
+    color: var(--white);
+    text-decoration: none;
+}

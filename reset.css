@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+     background: var(--purple);
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+:root {
+     --lightblue: #C2C9D1;
+     --blue: #407BFF;
+     --deepblue: #1B2559;
+     --grey: #E3E3E5;
+     --purple: #3F5071;
+     --whitesmoke: #C7CAD0;
+     --white: #FFFFFF;
+     --gray: #C4C5C9;
+     --ash: #C8BCCE;
+     --blueviolet: #1A2640;
+     --green: #147129;
+     --lightgreen: #EAFDEE;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--grey);
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+form {
+    width: 40vw;
+    height: 60vh;
+    background: var(--blueviolet);
+    border-radius: 35px;
+    padding: 2rem;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover h3 {
+    color: var(--whitesmoke);
+    font-size: 4rem;
+}
+
+.cover p {
+    color: var(--gray);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+form input {
+    padding-top: 2.5rem;    
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 30rem;
+    background-color: var(--white);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+form label {
+    font-weight: 400;
+    color: var(--gray);
+    font-size: 1.7rem;
+}
+
+::placeholder {
+    font-weight: 500;
+    color: var(--ash);
+    font-size: 1.7rem;
+}
+
+form button a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+form button {
+    font-size: 1.7rem;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    background-color: var(--blue);
+    padding: 2.5rem 20rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.inputs {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}

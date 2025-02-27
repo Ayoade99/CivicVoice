@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+     background: var(--purple);
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+:root {
+     --lightblue: #768299;
+     --blue: #407BFF;
+     --deepblue: #2D3D62;
+     --grey: #C7CAD0;
+     --purple: #3F5071;
+     --whitesmoke: #F6F6F9;
+     --white: #F0ECF3;
+     --gray: #727272;
+     --blueviolet: #1A2640;
+}
+ 
+
+header {
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--white);
+    font-size: 5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+form {
+    width: 40vw;
+    height: 120vh;
+    background: var(--blueviolet);
+    border-radius: 35px;
+    padding: 2rem;
+}
+
+.move {
+    color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3rem;
+}
+
+.move h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.move p {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+form input {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 25rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: var(--gray);
+    pointer-events: none;
+    cursor: text;
+}
+
+form label {
+    color: var(--grey);
+    font-size: 2rem;
+    font-weight: 300;
+    position: relative;
+}
+
+form label a {
+    color: var(--grey);
+    font-weight: 400;
+    font-family: "Open Sans", serif;
+}
+
+label img {
+    position: absolute;
+    top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+::placeholder {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Open Sans", serif;
+    letter-spacing: 0.5px;
+}
+
+input#password {
+    background-image: url('/Images/akar-icons_eye-closed.png');
+    background-repeat: no-repeat;
+    background-position: 35rem;
+}
+
+form button {
+    padding: 2.5rem 15rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin: 0.5rem 0;
+}
+
+.button .login {
+     background-color: var(--blue);
+     font-size: 2rem;
+     color: var(--white);
+     font-family: "Open Sans", serif;
+     font-weight: 600;
+     padding: 2.3rem 19rem;
+}
+
+.button .login a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.button .sign-up img {
+    width: 3rem;
+    position: absolute;
+    top: 2rem;
+    left: 7rem;
+}
+
+.button .sign-up {
+    position: relative;
+    padding: 2rem 13rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white);
+    font-family: "Open Sans", serif;
+    background-color: var(--gray);
+}
+
+#option {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 6rem;
+}
+
+form p a {
+    color: var(--blue);
+    font-size: 1.7rem;
+    font-weight: 400;
+}

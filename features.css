@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+     font-family: "Poppins", serif; 
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+:root {
+     --lightblue: #768299;
+     --blue: #407BFF;
+     --deepblue: #4A5E83;
+     --grey: #434A59; 
+     --purple: #3F5071;
+     --whitesmoke: #F6F6F9;
+     --white: #F0ECF3;
+     --gray: #727272;
+}
+ 
+ /* // Navbar  Section// */
+ 
+.navbar-links {
+     display: flex;
+}
+ 
+.navbar-links a {
+     text-decoration: none;
+     color: var(--lightblue);
+     font-size: 1.4rem;
+     font-weight: 600;
+     padding: 2.5rem 2rem;
+}
+ 
+.logo {
+     margin-right: 30rem;
+     margin-left: 3rem;
+     padding-top: 2rem;
+}
+ 
+#features {
+     color: var(--blue);
+}
+ 
+.btn {
+     margin-left: 20rem;
+     margin-top: 1.5rem;
+}
+ 
+.btn button {
+     background: none;
+     outline: none;
+     font-size: 1.5rem;
+     border: none;
+     font-weight: bold;
+     margin-top: 1rem;
+}
+ 
+.btn .login {
+     padding: 0.8rem 2.5rem;
+     color: var(--blue);
+     border: 1px solid var(--blue);
+     margin-right: 1rem;
+     border-radius: 7px;
+}
+ 
+.btn .get {
+     padding: 1rem 2rem;
+     color: var(--white);
+     background-color: var(--blue);
+     border: none;
+     border-radius: 7px;
+}
+ 
+nav {
+     height: 15vh;
+}
+ 
+/* Header */
+
+header {
+     background-image: url('Images/img\ vote.png');
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 80vh;       
+     position: relative;
+
+}
+
+.hero { 
+     text-align: center;
+     position: absolute;
+     left: 20rem;
+     top: 5rem;
+}
+
+.hero h2 {
+     color: var(--blue);
+     font-size: 5rem;
+     font-family: "Open Sans", serif;
+     font-weight: 700;
+}
+
+.hero h3 {
+     color: var(--white);
+     font-size: 5rem;
+     font-family: "Open Sans", serif;
+     font-weight: 700;
+     padding-bottom: 1.5rem;
+}
+
+.hero p {
+     color: var(--white);
+     font-size: 2.4rem;
+     font-family: "Open Sans", serif;
+     font-weight: 600;
+}
+
+.hero button { 
+     background-color: var(--blue);
+     border: none;
+     outline: none;
+     border-radius: 10px;
+     padding: 1.5rem 3rem;
+     margin-top: 3rem;
+}
+
+.hero button a {
+     text-decoration: none;
+     color: var(--white);
+     font-size: 2rem;
+     font-weight: 400;
+     font-family: "Open Sans", serif;
+}
+
+/* Section One */
+.one {
+     height: 160vh;
+}
+
+.features h3 {
+     font-size: 6rem;
+     text-align: center;
+     color: var(--blue);
+     font-family: "Open Sans", serif;
+     font-weight: 700;
+     padding: 4rem 0;
+}
+
+.real {
+     width: 30vw;
+     height: 60vh;
+     border: 1px solid var(--blue);
+     border-radius: 25px;
+     padding: 2rem;
+}
+
+.real img {
+     margin-bottom: 2rem;
+}
+
+.real h3 {
+     color: var(--purple);
+     font-size: 2.4rem;
+     font-weight: 600;
+     padding-bottom: 1rem;
+}
+
+.real p {
+     color: var(--gray);
+     font-size: 1.7rem;
+     font-weight: 300;
+}
+
+.efficient {
+     width: 30vw;
+     height: 60vh;
+     border: 1px solid var(--blue);
+     border-radius: 25px;
+     padding: 2rem;
+}
+
+.efficient img {
+     margin-bottom: 2rem;
+}
+
+.efficient h3 {
+     color: var(--purple);
+     font-size: 2.4rem;
+     font-weight: 600;
+     padding-bottom: 1rem;
+}
+
+.efficient p {
+     color: var(--gray);
+     font-size: 1.7rem;
+     font-weight: 300;
+}
+
+.observer {
+     width: 30vw;
+     height: 60vh;
+     border: 1px solid var(--blue);
+     border-radius: 25px;
+     padding: 2rem;
+}
+
+.observer img {
+     margin-bottom: 2rem;
+}
+
+.observer h3 {
+     color: var(--purple);
+     font-size: 2.4rem;
+     font-weight: 600;
+     padding-bottom: 1rem;
+}
+
+.observer p {
+     color: var(--gray);
+     font-size: 1.7rem;
+     font-weight: 300;
+}
+
+.engagement {
+     width: 30vw;
+     height: 60vh;
+     border: 1px solid var(--blue);
+     border-radius: 25px;
+     padding: 2rem;
+}
+
+.engagement img {
+     margin-bottom: 2rem;
+}
+
+.engagement h3 {
+     color: var(--purple);
+     font-size: 2.4rem;
+     font-weight: 600;
+     padding-bottom: 1rem;
+}
+
+.engagement p {
+     color: var(--gray);
+     font-size: 1.7rem;
+     font-weight: 300;
+}
+
+.flexbox {
+     display: flex;
+     justify-content: space-around;
+}
+
+.secure {
+     width: 30vw;
+     height: 60vh;
+     border: 1px solid var(--blue);
+     border-radius: 25px;
+     padding: 2rem;
+}
+
+.secure img {
+     margin-bottom: 2rem;
+}
+
+.secure h3 {
+     color: var(--purple);
+     font-size: 2.4rem;
+     font-weight: 600;
+     padding-bottom: 1rem;
+}
+
+.secure p {
+     color: var(--gray);
+     font-size: 1.7rem;
+     font-weight: 300;
+}
+
+.seamless {
+     width: 30vw;
+     height: 60vh;
+     border: 1px solid var(--blue);
+     border-radius: 25px;
+     padding: 2rem;
+}
+
+.seamless img {
+     margin-bottom: 2rem;
+}
+
+.seamless h3 {
+     color: var(--purple);
+     font-size: 2.4rem;
+     font-weight: 600;
+     padding-bottom: 1rem;
+}
+
+.seamless p {
+     color: var(--gray);
+     font-size: 1.7rem;
+     font-weight: 300;
+}
+
+.flexbox2 {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 5rem;
+}
+
+/* Section Two */
+
+.two {
+     height: 105vh;
+}
+
+.serve h3 {
+     font-size: 6rem;
+     text-align: center;
+     color: var(--blue);
+     font-family: "Open Sans", serif;
+     font-weight: 700;
+     padding: 4rem 0;
+}
+
+.educational img {
+     margin-left: 15rem;
+}
+
+.educational h3 {
+     color: var(--blue);
+     font-size: 3.6rem;
+     font-weight: 500;
+}
+
+.professional img {
+     margin-left: 15rem;
+}
+
+.professional h3 {
+     color: var(--blue);
+     font-size: 3.6rem;
+     font-weight: 500;
+}
+
+.political img {
+     margin-left: 15rem;
+}
+
+.political h3 {
+     color: var(--blue);
+     font-size: 3.6rem;
+     font-weight: 500;
+}
+
+.flexbox3 {
+     display: flex;
+     justify-content: space-around;
+}
+
+.sport img {
+     margin-left: 15rem;
+}
+
+.sport h3 {
+     color: var(--blue);
+     font-size: 3.6rem;
+     font-weight: 500;
+}
+
+.private img {
+     margin-left: 15rem;
+}
+
+.private h3 {
+     color: var(--blue);
+     font-size: 3.6rem;
+     font-weight: 500;
+}
+
+.flexbox4 {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 8rem;
+}
+
+.government img {
+     margin-left: 15rem;
+}
+
+.government h3 {
+     color: var(--blue);
+     font-size: 3.6rem;
+     font-weight: 500;
+}
+
+.corporate img {
+     margin-left: 17rem;
+}
+
+.corporate h3 {
+     color: var(--blue);
+     font-size: 3.6rem;
+     font-weight: 500;
+}
+
+.union img {
+     margin-left: 4rem;
+}
+
+.union h3 {
+     color: var(--blue);
+     font-size: 3.6rem;
+     font-weight: 500;
+}
+
+.flexbox5 {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 8rem;
+}
+
+/* Footer */
+
+footer {
+     height: 35rem;
+     background: var(--purple);
+}
+ 
+.civic h2 {
+     color: var(--whitesmoke);
+     font-size: 3rem;
+     font-weight: 700;
+     font-family: "Open Sans", serif;
+     padding-left: 2rem;
+     padding-bottom: 2.5rem;
+}
+ 
+.links a {
+     text-decoration: none;
+     font-size: 1.5rem;
+     font-weight: 500;
+     color: var(--white);
+     padding: 0 2rem;
+}
+ 
+.stay h5{
+    color: var(--whitesmoke);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Roboto", serif;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+ 
+#email {
+     padding: 1.5rem 1.5rem;
+     font-size: 1.5rem;
+     border: 1px solid var(--blue);
+     outline: none;
+     color: var(--blue);
+     border-radius: 7px;
+}
+ 
+::placeholder {
+     cursor: text;
+     color: var(--blue)
+}
+ 
+.stay button {
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 1.5rem 3rem;
+    border-radius: 7px;
+    margin-left: 1rem;
+}
+ 
+.flexbox6 {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 4rem;
+}
+ 
+#empty {
+     color: var(--white);
+     border-bottom: 1px solid var(--white);
+     width: 90%;
+     margin-left: 7rem;
+     padding-top: 7rem;
+}
+ 
+.last {
+     margin-left: 10rem;
+}
+ 
+.last p {
+    font-size: 1.7rem;
+    font-family: "Roboto", serif;
+    color: var(--white);
+    font-weight: 400;
+}
+ 
+.links2 {
+     margin-right: 10rem;
+}
+ 
+.links2 a {
+     color: var(--white);
+     font-size: 1.7rem;
+     font-family: "Roboto", serif;
+     font-weight: 300;
+     padding: 0 1rem;
+}
+ 
+.flexbox7 {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 4rem;
+}
