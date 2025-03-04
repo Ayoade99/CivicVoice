@@ -62,6 +62,10 @@ html {
     margin-top: 2.5rem;
 }
 
+.btn a {
+    text-decoration: none;
+}
+
 .btn button {
     background: none;
     outline: none;
@@ -89,10 +93,6 @@ html {
 
 .navbar {
     display: flex;
-}
-
-.navbar a {
-    text-decoration: none;
 }
 
 nav {
@@ -764,7 +764,7 @@ footer {
         top: 99px;
         right: 1rem;
         width: 30vw;
-        height: 20vh;
+        height: 40vh;
         padding-top: 1rem;
     }
     
@@ -809,6 +809,28 @@ footer {
 
 @media screen and (max-width: 853px) {
     
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--deepblue);
+        top: 99px;
+        right: 1rem;
+        width: 30vw;
+        height: 40vh;
+        padding-top: 1rem;
+    }
+    
+    .navbar-links a {
+        display: block;
+        text-align: center;
+        color: white;
+    }
+
+    .show {
+        display: block;
+    }
+
     .bar-icon {
         margin-left: 35rem;
     }
@@ -859,6 +881,28 @@ footer {
 
 @media screen and (max-width: 820px) {
     
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--deepblue);
+        top: 99px;
+        right: 1rem;
+        width: 30vw;
+        height: 40vh;
+        padding-top: 1rem;
+    }
+    
+    .navbar-links a {
+        display: block;
+        text-align: center;
+        color: white;
+    }
+
+    .show {
+        display: block;
+    }
+
     .bar-icon {
         margin-left: 30rem;
     }
@@ -924,6 +968,10 @@ footer {
         display: block;
     }
     
+    .bar-icon {
+        margin-left: 25rem;
+    }
+
     .logo {
         margin-left: 3rem;
         margin-right: 0;
@@ -990,7 +1038,7 @@ footer {
 
     .efficient {
         top: 87rem;
-        right: 10rem;
+        right: 3rem;
         text-align: center;
     }
 
@@ -1010,7 +1058,7 @@ footer {
 
     .secure {
         top: 170rem;
-        right: 10rem;
+        right: 3rem;
         text-align: center;
     }
 
@@ -1034,6 +1082,7 @@ footer {
 
 
 @media screen and (max-width: 430px) {
+
     
     .navbar-links {
         display: none;
@@ -1070,8 +1119,198 @@ footer {
         margin-top: 10rem;
     }
 
-    #one {
-        height: 200rem;
+    .intro-text p {
+        padding: 0 3rem;
     }
+
+    #one {
+        height: 180rem;
+    }
+
+    .cover h3 {
+        font-size: 1.5rem;
+    }
+
+    .cover p {
+        font-size: 1.3rem;
+    }
+
+    .features h3 {
+        font-size: 4rem;
+    }
+
+    .unsplash {
+        left: 6rem;
+    }
+
+    .cover2 h3 {
+        font-size: 2rem;
+    }
+
+    .real-time {
+        left: 6rem;
+    }
+
+    .efficient {
+        right: 3rem;
+    }
+
+    .engagement {
+        left: 7rem;
+    }
+
+    .engagement img {
+        margin-left: 8rem;
+    }
+
+    .secure {
+        right: 3rem;
+    }
+
+    #email {
+        padding-right: 15rem;
+    }
+
+    .stay button {
+        padding: 2rem 13rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .unsplash {
+        left: 4rem;
+    }
+
+    .unsplash2 {
+        left: 1rem;
+    }
+
+    .efficient {
+        right: 1rem;
+    }
+
+    .efficient img {
+        margin-left: 17rem;
+    }
+
+    .secure {
+        right: 1rem;
+    }
+
+    #email {
+        padding-right: 13rem;
+    }
+
+    .stay button {
+        padding: 2rem 12.2rem;
+    }
+    
+    .links2 {
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    
+    .unsplash img {
+        width: 30rem;
+    }
+
+    .unsplash2 img {
+        width: 30rem;
+    }
+
+    .unsplash {
+        left: 6rem;
+    }
+
+    .unsplash2 {
+        left: 2rem;
+    }
+
+    .efficient {
+        left: 3rem;
+    }
+
+    .efficient img {
+        margin-left: 13rem;
+    }
+
+    .engagement {
+        left: 0;
+        right: 0;
+    }
+
+    .engagement img {
+        margin-left: 16rem;
+    }
+
+    .secure  {
+        right: -1rem;
+    }
+
+    .stay {
+        margin-left: 2rem;
+    }
+
+    .last {
+        margin-left: 5rem;
+    }
+
+    .links2 {
+       margin-left: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    
+    .bar-icon {
+        margin-left: 12rem;
+    }
+
+    .secure {
+        right: 0;
+        left: 0;
+    }
+    .secure img {
+        margin-left: 15rem;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .unsplash {
+        left: 4rem;
+    }
+
+    .unsplash2 {
+        left: 1rem;
+    }
+
+    .real-time {
+        left: 3rem;
+    }
+
+    .efficient {
+        left: 1rem;
+    }
+
+    .engagement img {
+        margin-left: 14rem;
+    }
+
+    .secure img {
+        margin-left: 14rem;
+    }
+
+    .stay {
+        margin-left: 1rem;
+    }
+
+
 
 }
