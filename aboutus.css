@@ -916,6 +916,10 @@ footer {
         margin-left: 13rem;
     }
 
+    header {
+        height: 200vh;
+    }
+    
     #email {
         padding-right: 13rem;
     }
