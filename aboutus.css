@@ -890,7 +890,11 @@ footer {
     .navbar-links {
         height: 35vh;
     }
-    
+     
+    .intro-image img{
+         width: 20rem;
+     }
+
     header {
         height: 180vh;
     }
@@ -916,10 +920,6 @@ footer {
         margin-left: 13rem;
     }
 
-    header {
-        height: 200vh;
-    }
-    
     #email {
         padding-right: 13rem;
     }
