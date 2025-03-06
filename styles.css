@@ -59,7 +59,6 @@ html {
 
 .btn {
     margin-left: 20rem;
-    margin-top: 2.5rem;
 }
 
 .btn a {
@@ -72,7 +71,6 @@ html {
     font-size: 1.5rem;
     border: none;
     font-weight: bold;
-    margin-top: 1rem;
 }
 
 .btn .login {
@@ -611,6 +609,15 @@ footer {
 
     .btn {
         display: none;
+        margin-left: 11rem;
+    }
+
+    .btn button {
+        display: block;
+    }
+
+    .btn .login {
+        margin-right: 0;
     }
 
     .bar-icon{
@@ -627,7 +634,7 @@ footer {
         top: 99px;
         right: 0;
         width: 30vw;
-        height: 40vh;
+        height: 25vh;
         padding-top: 1rem;
     }
     
@@ -756,6 +763,21 @@ footer {
 
 @media screen and (max-width: 912px) {
     
+
+    .btn {
+        display: none;
+        margin-left: 9rem;
+    }
+
+    .btn button {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .btn .login {
+        margin-right: 0;
+    }
+
     .navbar-links {
         display: none;
         flex-direction: column;
@@ -764,7 +786,7 @@ footer {
         top: 99px;
         right: 1rem;
         width: 30vw;
-        height: 40vh;
+        height: 25vh;
         padding-top: 1rem;
     }
     
@@ -809,6 +831,21 @@ footer {
 
 @media screen and (max-width: 853px) {
     
+
+    .btn {
+        display: none;
+        margin-left: 8rem;
+    }
+
+    .btn button {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .btn .login {
+        margin-right: 0;
+    }
+
     .navbar-links {
         display: none;
         flex-direction: column;
@@ -817,7 +854,7 @@ footer {
         top: 99px;
         right: 1rem;
         width: 30vw;
-        height: 40vh;
+        height: 25vh;
         padding-top: 1rem;
     }
     
@@ -889,7 +926,7 @@ footer {
         top: 99px;
         right: 1rem;
         width: 30vw;
-        height: 40vh;
+        height: 30vh;
         padding-top: 1rem;
     }
     
@@ -945,6 +982,12 @@ footer {
 
 @media screen and (max-width: 540px) {
 
+
+     .btn {
+        display: none;
+        margin-left: 2rem;
+     }
+
     .navbar-links {
         display: none;
         flex-direction: column;
@@ -953,7 +996,7 @@ footer {
         top: 99px;
         right: 1rem;
         width: 30vw;
-        height: 30vh;
+        height: 45vh;
         padding-top: 2rem;
         padding-left: 1.5rem;
     }
@@ -1083,7 +1126,7 @@ footer {
 
 @media screen and (max-width: 430px) {
 
-    
+
     .navbar-links {
         display: none;
         flex-direction: column;
@@ -1092,7 +1135,7 @@ footer {
         top: 99px;
         right: 1rem;
         width: 40vw;
-        height: 30vh;
+        height: 35vh;
         padding-top: 2rem;
         padding-left: 1.5rem;
     }
@@ -1214,6 +1257,10 @@ footer {
 
 @media screen and (max-width: 390px) {
     
+    .btn {
+        margin-left: 1rem;
+    }
+
     .unsplash img {
         width: 30rem;
     }
@@ -1267,6 +1314,10 @@ footer {
 
 @media screen and (max-width: 375px) {
     
+    .navbar-links {
+        height: 45vh;
+    }
+
     .bar-icon {
         margin-left: 12rem;
     }
@@ -1282,6 +1333,10 @@ footer {
 
 
 @media screen and (max-width: 360px) {
+
+    .btn {
+        margin-left: 0.5rem;
+    }
 
     .unsplash {
         left: 4rem;
