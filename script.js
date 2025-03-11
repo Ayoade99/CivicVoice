@@ -7,8 +7,10 @@ function showLinks () {
     
     const menuLinks = document.querySelector(".navbar-links");
     const button = document.querySelector(".btn");
-    button.classList.toggle("show");
+    const shift = document.querySelector(".hero");
     menuLinks.classList.toggle("show");
-
-    
+    button.classList.toggle("show");
+    shift.classList.toggle("shift-hero");
+   
 };
+

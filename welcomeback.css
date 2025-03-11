@@ -97,7 +97,6 @@ form input {
     outline: none;
     border-radius: 7px;
     background-color: var(--gray);
-    pointer-events: none;
     cursor: text;
 }
 
@@ -183,4 +182,247 @@ form p a {
     color: var(--blue);
     font-size: 1.7rem;
     font-weight: 400;
+}
+
+
+/* Tablet Screen */
+
+@media screen and (max-width: 1024px) {
+    
+    label img {
+        display: none;
+    }
+    
+    .code {
+        width: 55vw;
+        height: 5vh;
+    }
+
+    form {
+        width: 55vw;
+        height: 60vh;
+    }
+
+    header {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 912px) {
+
+    .code {
+        width: 60vw;
+        height: 5vh;
+    }
+
+    form {
+        width: 60vw;
+        height: 55vh;
+    }
+
+}
+
+
+@media screen and (max-width: 853px) {
+    
+    .code {
+        width: 62vw;
+        height: 5vh;
+    }
+
+    form {
+        width: 62vw;
+        height: 60vh;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+
+    .code {
+        width: 64vw;
+        height: 5vh;
+    }
+
+    form {
+        width: 64vw;
+        height: 65vh;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .code {
+        width: 68vw;
+        height: 5vh;
+    }
+
+    form {
+        width: 68vw;
+        height: 75vh;
+    }
+}
+
+
+/* Mobile Screen */
+
+
+
+@media screen and (max-width: 540px) {
+
+    .code {
+        width: 95vw;
+        height: 10vh;
+    }
+
+    form {
+        width: 95vw;
+        height: 100vh;
+    }
+
+    header {
+        height: 130vh;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .move p {
+        font-size: 1.5rem;
+    }
+
+    .move h3 {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+
+
+    .code {
+        width: 95vw;
+        height: 7vh;
+    }
+
+    form {
+        width: 95vw;
+        height: 78vh;
+    }
+
+    form input {
+        padding-right: 14rem;
+    }
+
+    .button .login {
+        padding: 2.1rem 13.5rem;
+    }
+
+    .button .sign-up {
+        padding: 2.3rem 9.7rem;
+        font-size: 1.5rem;
+    }
+
+    .button .sign-up img {
+        left: 5rem;
+    }
+   
+    #option {
+        padding-left: 3rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 414px) {
+    
+    .button .sign-up {
+        padding: 2.3rem 9.5rem;
+        font-size: 1.5rem;
+    }
+
+    form {
+        width: 95vw;
+        height: 80vh;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    
+    form {
+        padding-left: 0;
+        height: 85vh;
+    }
+
+    form input {
+        padding-right: 13rem;
+    }
+
+    .button .login {
+        padding: 2.1rem 13rem;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    
+    .code {
+        width: 95vw;
+        height: 10vh;
+    }
+
+    .code p {
+        font-size: 1.5rem;
+    }
+
+    form {
+        height: 107vh;
+    }
+
+    .button .login {
+        padding: 2rem 12.7rem;
+    }
+
+    .button .sign-up {
+        padding: 2.1rem 8.8rem;
+    }
+
+    .button .sign-up img {
+        width: 2rem;
+        top: 2.1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .code p {
+        font-size: 1.4rem;
+    }
+
+    form {
+        height: 112vh;
+    }
+
+    form input {
+        padding-right: 11rem;
+    }
+
+    .button .login {
+        padding: 2rem 11.7rem;
+    }
+
+    .button .sign-up {
+        padding: 2.1rem 8rem;
+    }
+    
 }

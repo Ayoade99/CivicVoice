@@ -614,6 +614,7 @@ footer {
 
     .btn button {
         display: block;
+        margin: 1rem 0;
     }
 
     .btn .login {
@@ -1135,7 +1136,7 @@ footer {
         top: 99px;
         right: 1rem;
         width: 40vw;
-        height: 35vh;
+        height: 45vh;
         padding-top: 2rem;
         padding-left: 1.5rem;
     }
@@ -1218,6 +1219,7 @@ footer {
         padding: 2rem 13rem;
     }
 }
+
 
 @media screen and (max-width: 414px) {
 
@@ -1366,6 +1368,6 @@ footer {
         margin-left: 1rem;
     }
 
-
-
 }
+
+

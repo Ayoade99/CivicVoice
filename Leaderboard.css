@@ -75,8 +75,17 @@ nav button img {
     margin-top: 1.4rem;
 }
 
+.bar-icon {
+   font-size: 4rem;
+   color: var(--blue);
+   display: none;
+   background: none;
+   border: none;
+}
+
 nav {
     height: 20vh;
+    display: flex;
 }
 
 header {
@@ -631,4 +640,484 @@ header {
    position: absolute;
    top: 0;
    margin-left: 0.5rem;
+}
+
+
+
+/* Tablet Screen */
+
+@media screen and (max-width: 1024px) {
+   
+   .navbars {
+      display: none;
+ }
+
+ .logo {
+     padding-right: 0; 
+ }
+
+ .bar-icon {
+      display: flex;
+      margin-left: 67rem;
+      padding-top: 3rem;
+ }
+
+  header {
+      height: 100rem;
+ }
+
+ .whole {
+      display: none;
+      border-right: none;
+      background-color: var(--deepblue);
+      position: absolute;
+      right: 1rem;
+      width: 30vw;
+      height: 45vh;
+      top: 99px;
+      padding: 2rem;
+      z-index: 1;
+ }
+
+ .whole a {
+      color: var(--white);
+      font-size: 1.7rem;
+ }
+
+ .whole div {
+      margin-left: 3rem;
+      margin-top: 0;
+      margin-bottom: 0;
+ }
+
+ .whole p {
+       background: none;
+       width: 100%;
+ }
+
+ .whole img{
+      display: none;
+ }
+ 
+ .show {
+      display: block;
+ }
+
+ .transparency {
+      width: 80vw;
+ }
+
+ .leaderboard {
+      display: none;
+ }
+
+ #score {
+      display: none;
+ }
+
+ .transparency input {
+       width: 3rem;
+       height: 3rem;
+ } 
+
+}
+
+
+@media screen and (max-width: 912px) {
+   
+   .bar-icon {
+      margin-left: 47rem;
+   }
+
+   .transparency {
+      width: 90vw;
+      height: 70vh;
+   }
+
+   .participant {
+      width: 80vw;
+      padding-top: 5rem;
+   }
+
+   .participant #pole {
+      right: 3rem;
+   }
+
+   .participant2 {
+      width: 80vw;
+      height: 8vh;
+   }
+
+   .participant3 {
+      width: 80vw;
+      height: 8vh;
+   }
+
+   .participant4 {
+      width: 80vw;
+      height: 8vh;
+   }
+
+   .participant5 {
+      width: 80vw;
+      height: 8vh;
+   }
+
+   
+}
+
+
+@media screen and (max-width: 820px) {
+   
+   .whole {
+      width: 40vw;
+   }
+
+   .transparency {
+       width: 95vw;
+       margin-left: 2rem;
+   }
+
+   .participant {
+      width: 85vw;
+   }
+
+   .participant2 {
+      width: 85vw;
+   }
+
+   .participant3 {
+      width: 85vw;
+   }
+
+   .participant4 {
+      width: 85vw;
+   }
+
+   .participant5 {
+      width: 85vw;
+   }
+
+}
+
+
+@media screen and (max-width: 768px) {
+   
+   .bar-icon {
+      margin-left: 35rem;
+   }
+
+   .participant #time {
+      left: 40rem;
+   }
+
+   .participant2 #time {
+      left: 42.5rem;
+   }
+
+   .participant2 #pole {
+      right: 8rem;
+   }
+
+   .participant2 {
+      height: 13vh;
+   }
+
+   .participant3 #time {
+      left: 42.5rem;
+   }
+
+   .participant3 #pole {
+      right: 8rem;
+   }
+
+   .participant3 {
+      height: 13vh;
+   }
+
+   .participant4 #time {
+      left: 42.5rem;
+   }
+
+   .participant4 #pole {
+      right: 8rem;
+   }
+
+   .participant4 {
+      height: 13vh;
+   }
+
+   .participant5 #time {
+      left: 42.5rem;
+   }
+
+   .participant5 #pole {
+      right: 8rem;
+   }
+
+   .participant5 {
+      height: 13vh;
+   }
+
+   .transparency {
+      height: 90vh;
+   }
+}
+
+
+
+@media screen and (max-width: 540px) {
+   
+   .bar-icon {
+      margin-left: 20rem;
+   }
+
+   .transparency {
+      width: 95vw;
+   }
+
+   .participant #time {
+      left: 27rem;
+   }
+
+   .participant #names {
+      left: 8rem;
+   }
+
+   .participant2 #names {
+      font-size: 1.5rem;
+      left: 17rem;
+      top: 3rem;
+   }
+
+   .participant2 h2 img {
+      left: 9rem;      
+   }
+
+   .participant2 #time {
+      left: 29.5rem;
+   }
+
+   .participant3 #names {
+      font-size: 1.5rem;
+      left: 17rem;
+      top: 3rem;
+   }
+
+   .participant3 h2 img {
+      left: 9rem;      
+   }
+
+   .participant3 #time {
+      left: 29.5rem;
+   }
+
+   .participant4 #names {
+      font-size: 1.5rem;
+      left: 17rem;
+      top: 3rem;
+   }
+
+   .participant4 h2 img {
+      left: 9rem;      
+   }
+
+   .participant4 #time {
+      left: 29.5rem;
+   }
+
+   .participant5 #names {
+      font-size: 1.5rem;
+      left: 17rem;
+      top: 3rem;
+   }
+
+   .participant5 h2 img {
+      left: 9rem;      
+   }
+
+   .participant5 #time {
+      left: 29.5rem;
+   }
+
+}
+
+
+/* Mobile Screen */
+
+@media screen and (max-width: 425px) {
+   
+   .bar-icon {
+      margin-left: 10rem;
+   }
+
+   .logo {
+      padding-left: 2rem;
+      padding-top: 3rem;
+   }
+
+   .whole {
+      margin-left: 0;
+      width: 60vw;
+   }
+
+   .transparency {
+      margin-left: 1rem;
+      padding-left: 1rem;
+   }
+
+   #time {
+      display: none;
+   }
+
+   .participant #pole {
+      right: 2rem;
+   }
+
+   .participant2 #pole {
+      right: 6rem;
+   }
+
+   .participant3 #pole {
+      right: 6rem;
+   }
+
+   .participant4 #pole {
+      right: 6rem;
+   }
+
+   .participant5 #pole {
+      right: 6rem;
+   }
+  
+}
+
+
+@media screen and (max-width: 375px) {
+   
+   .logo img {
+      width: 10rem;
+   }
+
+   .logo {
+      padding-top: 4rem;
+   }
+
+   .bar-icon {
+      margin-left: 15rem;
+   }
+
+   .whole {
+      width: 70vw;
+   }
+
+   .participant #names {
+      left: 6rem;
+   }
+
+   .participant2 h2 img {
+      left: 7rem;
+   }
+
+   .participant2 #names {
+      left: 15rem;
+   }
+
+   .participant2 #pole {
+      right: 4rem;
+   }
+
+   .participant3 h2 img {
+      left: 7rem;
+   }
+
+   .participant3 #names {
+      left: 15rem;
+   }
+
+   .participant3 #pole {
+      right: 4rem;
+   }
+
+   .participant4 h2 img {
+      left: 7rem;
+   }
+
+   .participant4 #names {
+      left: 15rem;
+   }
+
+   .participant4 #pole {
+      right: 4rem;
+   }
+
+   .participant5 h2 img {
+      left: 7rem;
+   }
+
+   .participant5 #names {
+      left: 15rem;
+   }
+
+   .participant5 #pole {
+      right: 4rem;
+   }
+}
+
+
+@media screen and (max-width: 320px) {
+    
+   .bar-icon {
+      margin-left: 10rem;
+   }
+
+   .whole a {
+      font-size: 1.3rem;
+   }
+
+   .transparency h2 img {
+      width: 5rem;
+      top: 2rem;
+   }
+
+   .participant #names {
+      font-size: 1.5rem;
+   }
+
+   .participant #pole {
+      font-size: 1.5rem;
+   }
+
+   .participant2 #names {
+      left: 12.5rem;
+   }
+
+   .participant2 #pole {
+      right: 3.5rem;
+   }
+
+   .participant3 #names {
+      left: 12.5rem;
+   }
+
+   .participant3 #pole {
+      right: 3.5rem;
+   }
+
+   .participant4 #names {
+      left: 12.5rem;
+   }
+
+   .participant4 #pole {
+      right: 3.5rem;
+   }
+
+   .participant5 #names {
+      left: 12.5rem;
+   }
+
+   .participant5 #pole {
+      right: 3.5rem;
+   }
+
 }

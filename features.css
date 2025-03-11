@@ -552,18 +552,26 @@ footer {
 @media screen and (max-width: 1024px) {
 
      .logo {
+          margin-right: 0;
           margin-left: 6rem;
           padding-top: 4rem;
      }
   
      .btn {
           display: none;
+          margin-left: 10rem;
+          margin-top: 0;
+     }
+     
+     .btn .login {
+          margin-right: 0;
+          margin-bottom: 1rem;
      }
 
      .bar-icon {
           padding-top: 3rem;
           display: flex;
-          margin-left: 40rem;
+          margin-left: 67rem;
      }
 
      .navbar-links {
@@ -576,6 +584,7 @@ footer {
           width: 30vw;
           height: 50vh;
           padding-top: 1rem;
+          z-index: 1;
       }
       
       .navbar-links a {
@@ -595,7 +604,6 @@ footer {
 
       .hero {
           height: 50vh;
-          margin-top: 10rem;
       }
 
       .wrap {

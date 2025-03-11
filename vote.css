@@ -75,7 +75,16 @@ nav button img {
      margin-top: 1.4rem;
 }
 
+.bar-icon {
+     font-size: 4rem;
+     color: var(--blue);
+     display: none;
+     background: none;
+     border: none;
+}
+
 nav {
+     display: flex;
      height: 20vh;
 }
 
@@ -469,3 +478,357 @@ header {
      font-size: 1.5rem;
      font-weight: 700;
 }
+
+
+/* Tablet Screen */
+
+
+@media screen and (max-width: 1024px) {
+     
+     .navbars {
+          display: none;
+     }
+
+     .logo {
+         padding-right: 0; 
+     }
+
+     .bar-icon {
+          display: flex;
+          margin-left: 67rem;
+          padding-top: 3rem;
+     }
+
+     header {
+          height: 170rem;
+     }
+
+     .whole {
+          display: none;
+          border-right: none;
+          background-color: var(--deepblue);
+          position: absolute;
+          right: 1rem;
+          width: 30vw;
+          height: 30vh;
+          top: 99px;
+          padding: 2rem;
+          z-index: 1;
+     }
+
+     .whole a {
+          color: var(--white);
+          font-size: 1.7rem;
+     }
+
+     .whole div {
+          margin-left: 3rem;
+          margin-top: 0;
+          margin-bottom: 0;
+     }
+
+     .whole p {
+           background: none;
+           width: 100%;
+     }
+
+     .whole img{
+          display: none;
+     }
+     
+     nav {
+          height: 10vh;
+     }
+
+     .show {
+          display: block;
+     }
+
+     .candidates {
+          width: 85vw;         
+          height: 110vh;
+          margin-top: 10rem;
+     }
+
+     .warren {
+         width: 80vw; 
+         height: 20vh;
+     }
+
+     .warren input {
+          top: 5.5rem;
+     }
+
+     .leslie {
+          width: 80vw; 
+          height: 20vh;
+      }
+ 
+      .leslie input {
+           top: 5.5rem;
+      }
+
+      .hawkins {
+          width: 80vw; 
+          height: 20vh;
+      }
+ 
+      .hawkins input {
+           top: 5.5rem;
+      }
+
+      .fox {
+          width: 80vw; 
+          height: 20vh;
+      }
+ 
+      .fox input {
+           top: 5.5rem;
+      }
+
+      .candidates .button {
+          margin-top: 35rem;
+          margin-right: 0;
+      }
+
+}
+
+
+@media screen and (max-width: 912px) {
+     
+     .bar-icon {
+          margin-left: 47rem;
+     }
+}
+
+
+@media screen and (max-width: 768px) {
+     
+     .bar-icon {
+          margin-left: 40rem;
+     }
+
+     .whole {
+          width: 40vw;
+          height: 40vh;
+     }
+
+     .candidates {
+          width: 85vw;         
+          height: 100vh;
+          margin-top: 10rem;
+     }
+
+     .warren {
+         width: 80vw; 
+         height: 18vh;
+     }
+
+     .warren input {
+          top: 4.5rem;
+     }
+
+     .leslie {
+          width: 80vw; 
+          height: 18vh;
+      }
+ 
+      .leslie input {
+           top: 4.5rem;
+      }
+
+      .hawkins {
+          width: 80vw; 
+          height: 18vh;
+      }
+ 
+      .hawkins input {
+           top: 4.5rem;
+      }
+
+      .fox {
+          width: 80vw; 
+          height: 18vh;
+      }
+ 
+      .fox input {
+           top: 4.5rem;
+      }
+
+      .candidates .button {
+          margin-top: 18rem;
+          margin-right: 0;
+      }
+
+}
+
+
+/* Mobile Screen */
+
+@media screen and (max-width: 540px) {
+     
+     .bar-icon {
+          margin-left: 20rem;
+     }
+
+     .whole {
+          width: 50vw;
+          height: 50vh;
+     }
+
+     .whole div {
+          margin-left: 0;
+     }
+
+     .candidates {
+          width: 90vw;
+          margin-left: 2rem;
+     }
+
+     .warren {
+          height: 20vh;
+     }
+
+     .warren input {
+          top: 5.5rem;
+          left: 3rem;
+          width: 3rem;
+     }
+
+     .leslie {
+          height: 20vh;
+     }
+
+     .leslie input {
+          top: 5.5rem;
+          left: 3rem;
+          width: 3rem;
+     }
+
+     .fox {
+          height: 20vh;
+     }
+
+     .fox input {
+          top: 5.5rem;
+          left: 3rem;
+          width: 3rem;
+     }
+
+     .hawkins {
+          height: 20vh;
+     }
+
+     .hawkins input {
+          top: 5.5rem;
+          left: 3rem;
+          width: 3rem;
+     }
+}
+
+
+
+@media screen and (max-width: 430px) {
+     
+     .bar-icon {
+          margin-left: 10rem;
+          padding-top: 3rem;
+     }
+
+     .logo img {
+          width: 15rem;
+     }
+     
+     .whole {
+          width: 55vw;
+     }
+
+     .candidates {
+          width: 90vw;
+     }
+
+     .candidates h2 {
+          font-size: 2.2rem;
+     }
+
+     .warren {
+          height: 17vh;
+     }
+
+     .warren input {
+          top: 4.5rem;
+     }
+
+     .leslie {
+          height: 17vh;
+     }
+
+     .leslie input {
+          top: 4.5rem;
+     }
+
+     .hawkins {
+          height: 17vh;
+     }
+
+     .hawkins input {
+          top: 4.5rem;
+     }
+
+     .fox {
+          height: 17vh;
+     }
+
+     .fox input {
+          top: 4.5rem;
+     }
+
+     .candidates .button {
+          margin-top: 21rem;
+     }
+
+}
+
+
+@media screen and (max-width: 390px) {
+     
+     .whole {
+          width: 60vw;
+     }
+
+     .candidates .button {
+          margin-top: 15rem;
+     }
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+     .logo img {
+          width: 10rem;
+     }
+     
+     .bar-icon {
+          padding-top: 2.5rem;
+     }
+
+     .whole {
+          height: 60vh;
+     }
+
+     .candidates .button {
+          margin-top: 15rem;
+     }
+}
+
+
+@media screen and (max-width: 360px) {
+     
+     .whole {
+          width: 65vw;
+     }
+
+     
+}
+

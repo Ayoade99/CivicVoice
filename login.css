@@ -173,6 +173,10 @@ form p a {
 
 @media screen and (max-width: 1024px) {
     
+    label img {
+        display: none;
+    }
+
     form {
         width: 55vw;
         height: 60vh;
@@ -256,7 +260,7 @@ form p a {
 
     form {
         width: 95vw;
-        height: 78vh;
+        height: 110vh;
     }
 
     form input {

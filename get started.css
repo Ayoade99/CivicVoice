@@ -81,7 +81,6 @@ form input {
     outline: none;
     border-radius: 7px;
     background-color: var(--gray);
-    pointer-events: none;
     cursor: text;
 }
 
@@ -165,6 +164,10 @@ form p a {
 
 @media screen and (max-width: 1024px) {
     
+    label img {
+        display: none;
+    }
+
     form {
         width: 53vw;
         height: 63vh;
@@ -260,6 +263,8 @@ form p a {
 
 @media screen and (max-width: 430px) {
     
+    
+    
     header h1 {
         font-weight: 600;
         font-family: "Poppins", serif; 
@@ -271,7 +276,7 @@ form p a {
 
     form {
         width: 95vw;
-        height: 90vh;
+        height: 110vh;
         padding-left: 0;
     }
 
