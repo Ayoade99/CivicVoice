@@ -383,18 +383,19 @@ header {
         position: absolute;
         right: 1rem;
         width: 30vw;
-        height: 30vh;
+        height: 40vh;
         top: 99px;
         padding: 2rem;
+        z-index: 1;
     }
 
    .whole a {
         color: var(--white);
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
    .whole div {
-        margin-left: 3rem;
+        margin-left: 0;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -478,7 +479,7 @@ header {
     }
 
     .whole {
-        width: 40vh;
+        width: 40vw;
         height: 50vh;
     }
 }
@@ -505,11 +506,26 @@ header {
     }
 
     .whole {
-        width: 30vh;
+        width: 30vw;
         height: 50vh;
     }
 }
 
+
+@media screen and (max-width: 425px) {
+    
+    .whole {
+        width: 50vw;
+        height: 65vh;
+    }
+
+    .whole div {
+        margin-left: 0;
+    }
+
+    
+
+}
 
 @media screen and (max-width: 390px) {
 
@@ -537,4 +553,35 @@ header {
         width: 70vw;
         height: 60vh;
     }
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    
+
+    .bar-icon {
+        margin-left: 7rem;
+    }
+
+    .logo {
+        padding-left: 1rem;
+    }
+
+    .create h3 {
+        font-size: 1.5rem;
+    }
+
+    .create button a {
+        padding-left: 1rem;
+        padding-right: 5rem;
+
+    }
+
+    .create {
+        width: 85vw;
+        height: 60vh;
+        margin-left: 2.5rem;
+    }
+
 }

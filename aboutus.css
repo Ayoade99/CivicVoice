@@ -474,7 +474,7 @@ footer {
 
    .btn {
         display: none;
-        margin-left: 8rem;
+        margin-left: 10rem;
     }
 
     .btn button {
@@ -487,6 +487,10 @@ footer {
         margin-left: 40rem;
     }
 
+    .btn .login {
+        border: none;
+    }
+
    .navbar-links {
         display: none;
         flex-direction: column;
@@ -494,9 +498,10 @@ footer {
         background-color: var(--deepblue);
         top: 99px;
         right: 1rem;
-        width: 25vw;
-        height: 40vh;
+        width: 30vw;
+        height: 50vh;
         padding-top: 2rem;
+        z-index: 1;
     }
     
     .navbar-links a {
@@ -520,6 +525,10 @@ footer {
         font-size: 2.5rem;
     }
 
+    header {
+        height: 250vh;
+    }
+
     .one {
         height: 30rem;
     }
@@ -534,6 +543,10 @@ footer {
         align-items: center;
     }
 
+    .user2 {
+        margin: 20rem 0;
+    }
+
     .image {
         display: none;
     }
@@ -546,10 +559,11 @@ footer {
 
     form {
         margin-top: 10rem;
+        margin-left: 4rem;
     }
 
     .three {
-        height: 120vh;
+        height: 250vh;
     }
 
     footer {
@@ -614,6 +628,22 @@ footer {
         margin-left: 30rem;
    }
 
+   .btn {
+        margin-left: 8rem;
+   }
+
+   header {
+       height: 170vh;
+   }
+
+   .user2 {
+       margin: 5rem 0;
+   }
+
+   .two {
+      height: 200rem;
+   }
+
    #email {
        padding-right: 60rem;
    }
@@ -633,6 +663,10 @@ footer {
 
    .intro-text p {
        font-size: 2rem;
+   }
+
+   .three {
+        height: 150vh;
    }
 
    #email {
@@ -666,6 +700,41 @@ footer {
 }
 
 
+
+@media screen and (max-width: 768px) {
+
+    .btn {
+        margin-top: 0;
+        margin-left: 7rem;
+    }
+
+    .btn button {
+        margin: 0;
+    }
+
+    .navbar-links {
+        height: 60vh;
+    }
+
+    header {
+        height: 300vh;
+    }
+
+    .user2 {
+        margin: 20rem 0;
+    }
+
+    .two {
+        height: 300vh;
+    }
+
+    .three {
+        height: 300vh;
+    }
+
+
+    
+}
 @media screen and (max-width: 540px) {
 
     .logo {
@@ -678,8 +747,22 @@ footer {
     }
 
     .navbar-links {
-        height: 30vh;
+        height: 70vh;
+        width: 40vw;
     }
+
+     .btn {
+        margin-left: 6rem;
+     } 
+
+     .btn button {
+        margin-top: 0;
+     }
+
+     .btn .get {
+        background: none;
+        color: var(--blue);
+     }
 
     .intro-text p {
         font-size: 1.5rem;
@@ -725,6 +808,10 @@ footer {
         padding-right: 30rem;
     }
 
+    form {
+        margin-left: 1rem;
+    }
+
     .three {
         height: 230vh;
     }
@@ -747,14 +834,18 @@ footer {
 
 /* Mobile Screen */
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
     
     .bar-icon {
-        margin-left: 16rem;
+        margin-left: 19rem;
     }
 
     .navbar-links {
-        width: 30vw;
+        width: 40vw;
+    }
+
+    .btn {
+        margin-left: 3rem;
     }
 
     .intro-text p {
@@ -762,11 +853,19 @@ footer {
     }
 
     header {
-        height: 130vh;
+        height: 200vh;
     }
 
     .one {
         height: 100rem;
+    }
+
+    .user2 {
+        margin: 25rem 0;
+    }
+
+    .two {
+        height: 180rem;
     }
 
     .flexbox2 {
@@ -892,8 +991,18 @@ footer {
 
 @media screen and (max-width: 375px) {
 
+    .bar-icon {
+        margin-left: 15rem;
+    }
+
     .navbar-links {
-        height: 35vh;
+        height: 70vh;
+        width: 50vw;
+        right: 1rem;
+    }
+
+    .btn {
+        margin-left: 4rem; 
     }
      
     .intro-image img{
@@ -901,7 +1010,11 @@ footer {
      }
 
     header {
-        height: 180vh;
+        height: 250vh;
+    }
+
+    form {
+        margin-left: 0;
     }
 
     .stay {
@@ -933,3 +1046,49 @@ footer {
         padding: 2rem 12.1rem;
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    
+    .bar-icon {
+        margin-left: 10rem;
+    }
+
+    .navbar-links {
+        width: 50vw;
+        height: 75vh;
+    }
+
+    .btn {
+        margin-left: 2.5rem;
+    }
+
+    .two p {
+        font-size: 1.5rem;
+    }
+
+    .user2 {
+        margin-bottom: 10rem;
+    }
+
+    form input {
+        padding-right: 10rem;
+    }
+
+    #email {
+        padding-right: 8rem;
+    }
+
+    .stay button {
+        padding: 2rem 9.6rem;
+    }
+
+    .links2 {
+        margin-right: 0;
+    }
+
+
+}
+
+
+
