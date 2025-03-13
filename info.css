@@ -180,3 +180,312 @@ form label[for*="number"] {
     color: var(--white);
     text-decoration: none;
 }
+
+
+/* Tablet Screen */
+
+
+@media screen and (max-width: 1024px) {
+    
+    .personal {
+        margin-left: 5rem;
+    }
+
+    form {
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    .personal p {
+        width: 98%;
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    
+
+    form input {
+        padding-right: 20rem;   
+    }
+
+    form #lastname {
+        margin-left: 5rem;
+    }
+
+    form #state {
+        margin-left: 5rem;
+    }
+
+    form #address {
+        margin-left: 5rem;
+    }
+
+    form label[for*="lastname"] {
+        left: 44rem;
+    }
+
+    form label[for*="address"] {
+        left: 44rem;
+    }
+
+    form label[for*="state"] {
+        left: 44rem;
+    }
+}
+
+
+@media screen and (max-width: 853px) {
+    
+
+    form input {
+        padding-right: 15rem;   
+    }
+
+    form #lastname {
+        margin-left: 5rem;
+    }
+
+    form #state {
+        margin-left: 5rem;
+    }
+
+    form #address {
+        margin-left: 5rem;
+    }
+
+    form label[for*="lastname"] {
+        left: 39rem;
+    }
+
+    form label[for*="address"] {
+        left: 39rem;
+    }
+
+    form label[for*="state"] {
+        left: 39rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
+
+    form input {
+        padding-right: 10rem;   
+    }
+
+    form #lastname {
+        margin-left: 5rem;
+    }
+
+    form #state {
+        margin-left: 5rem;
+    }
+
+    form #address {
+        margin-left: 5rem;
+    }
+
+    form label[for*="lastname"] {
+        left: 34rem;
+    }
+
+    form label[for*="address"] {
+        left: 34rem;
+    }
+
+    form label[for*="state"] {
+        left: 34rem;
+    }
+}
+
+
+/* Mobile Screen */
+
+
+@media screen and (max-width: 540px) {
+
+    .personal {
+        margin-left: 3rem;
+    }
+    
+    form {
+        height: 130vh;
+        margin-left: 3rem;
+    }
+
+    form input {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-right: 25rem;   
+    }
+
+    form #lastname {
+        margin-left: 0;
+    }
+
+    form #state {
+        margin-left: 0;
+    }
+
+    form #address {
+        margin-left: 0;
+    }
+
+    form label {
+        font-size: 2rem;
+    }
+
+    form label[for*="dob"] {
+        top: 27rem;
+    }
+
+    form label[for*="lastname"] {
+        top: 13.5rem;
+        left: 0;
+    }
+
+    form label[for*="address"] {
+        top: 53rem;
+        left: 0;
+    }
+
+    form label[for*="state"] {
+        top: 80rem;
+        left: 0;
+    }
+
+    form label[for*="number"] {
+        top: 40rem;
+        left: 0;
+    }
+
+    form label[for*="city"] {
+        top: 66rem;
+        left: 0;
+    }
+
+    #number {
+       position: absolute;
+       top: 40.5rem;
+    }
+
+    #address {
+        position: absolute;
+        top: 53rem;
+        left: 0;
+     }
+
+     #city {
+        position: absolute;
+        top: 66.5rem;
+     }
+
+     #state {
+        position: absolute;
+        top: 80rem;
+    }
+
+    ::placeholder {
+        font-size: 1.8rem;
+    }
+
+    header {
+        height: 200vh;
+    }
+
+    .button button {
+        margin-left: 1rem;
+    }
+ 
+}
+
+
+@media screen and (max-width: 430px) {
+    
+    .personal {
+        margin-left: 2rem;
+    }
+
+    form {
+        height: 130vh;
+        margin-left: 2rem;
+    }
+
+    form input {
+        padding-right: 20rem;
+    }
+
+    header {
+        height: 180vh;
+    }
+
+}
+
+
+@media screen and (max-width: 390px) {
+    
+    .personal h3 {
+        font-size: 2.5rem;
+    }
+
+    .personal {
+        margin-left: 1rem;
+    }
+
+    form input {
+        padding-right: 15rem;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    
+    form {
+        height: 150vh;
+        margin-left: 1rem;
+    }
+
+    header {
+        height: 200vh;
+    }
+}
+
+
+
+@media screen and (max-width: 344px) {
+    
+    form input {
+        padding-right: 10rem;
+    }
+
+    form {
+        height: 120vh;
+        margin-left: 1rem;
+    }
+
+    header {
+        height: 200vh;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    
+    form input {
+        padding-right: 10rem;
+    }
+
+    form {
+        height: 190vh;
+        margin-left: 1rem;
+    }
+
+    header {
+        height: 250vh;
+    }
+}
+
+

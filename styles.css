@@ -609,16 +609,26 @@ footer {
 
     .btn {
         display: none;
-        margin-left: 11rem;
+        margin-left: 10rem;
     }
 
     .btn button {
         display: block;
-        margin: 1rem 0;
+        margin: 0;     
+    }
+
+    .btn a {
+        text-align: center;
     }
 
     .btn .login {
+        border: none;
         margin-right: 0;
+    }
+
+    .btn .get {
+        color: var(--blue);
+        background: none;
     }
 
     .bar-icon{
@@ -632,10 +642,10 @@ footer {
         flex-direction: column;
         position: absolute;
         background-color: var(--deepblue);
-        top: 99px;
+        top: 89px;
         right: 0;
         width: 30vw;
-        height: 25vh;
+        height: 50vh;
         padding-top: 1rem;
     }
     
@@ -978,6 +988,21 @@ footer {
     
 }
 
+
+
+@media screen and (max-width: 768px) {
+    
+    .navbar-links {
+        height: 55vh;
+    }
+
+    .btn {
+        margin-left: 6rem;
+    }
+}
+
+
+
 /* Mobile Screen */
 
 
@@ -1136,15 +1161,20 @@ footer {
         top: 99px;
         right: 1rem;
         width: 40vw;
-        height: 50vh;
+        height: 55vh;
         padding-top: 2rem;
         padding-left: 1.5rem;
     }
 
     .navbar-links a {
         display: block;
-        text-align: center;
+        text-align: left;
         color: white;
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        margin-left: 0;
     }
 
     .show {
@@ -1155,16 +1185,24 @@ footer {
         margin-left: 17rem;
     }
 
+    header {
+        height: 200vh;
+    }
+
     .intro-image img {
         width: 25rem;
     }
 
     .intro-image {
-        margin-top: 10rem;
+        margin-top: 20rem;
     }
 
     .intro-text p {
         padding: 0 3rem;
+    }
+
+    .intro-text {
+        margin-right: 3rem;
     }
 
     #one {
@@ -1317,17 +1355,22 @@ footer {
 @media screen and (max-width: 375px) {
     
     .navbar-links {
-        height: 45vh;
+        height: 60vh;
     }
 
     .bar-icon {
         margin-left: 12rem;
     }
 
+    header {
+        height: 180vh;
+    }
+
     .secure {
         right: 0;
         left: 0;
     }
+
     .secure img {
         margin-left: 15rem;
     }

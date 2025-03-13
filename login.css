@@ -256,15 +256,20 @@ form p a {
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
 
     form {
-        width: 95vw;
-        height: 110vh;
+        width: 90vw;
+        height: 140vh;
+        padding-left: 0;
     }
 
     form input {
         padding-right: 14rem;
+    }
+
+    header {
+        height: 180vh;
     }
 
     .button .login {
@@ -285,6 +290,7 @@ form p a {
     }
     
 }
+
 
 
 @media screen and (max-width: 414px) {
@@ -322,15 +328,20 @@ form p a {
 @media screen and (max-width: 375px) {
     
     form {
-        height: 107vh;
+        width: 90vw;
+        height: 140vh;
+    }
+
+    form input {
+        padding-right: 10rem;
     }
 
     .button .login {
-        padding: 2rem 12.7rem;
+        padding: 1.9rem 11.7rem;
     }
 
     .button .sign-up {
-        padding: 2.1rem 8.8rem;
+        padding: 2.1rem 7.8rem;
     }
 
     .button .sign-up img {
@@ -344,7 +355,7 @@ form p a {
 @media screen and (max-width: 360px) {
 
     form {
-        height: 112vh;
+        height: 130vh;
     }
 
     form input {
@@ -359,4 +370,33 @@ form p a {
         padding: 2.1rem 8rem;
     }
     
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    form {
+        height: 140vh;
+        width: 95vw;
+    }
+
+    .move p {
+        font-size: 1.2rem;
+    }
+
+    form input {
+        padding-right: 8rem;
+    }
+
+    .button .login {
+        padding: 1.9rem 10rem;
+    }
+
+    .button .sign-up {
+        padding: 2.1rem 6.1rem;
+    }
+
+    .button .sign-up img {
+        left: 3rem;
+    }
 }
