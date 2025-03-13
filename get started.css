@@ -261,7 +261,7 @@ form p a {
 /* Mobile Screen */
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
     
     
     
@@ -276,7 +276,7 @@ form p a {
 
     form {
         width: 95vw;
-        height: 110vh;
+        height: 150vh;
         padding-left: 0;
     }
 
@@ -295,7 +295,7 @@ form p a {
     }
 
     header {
-        height: 110vh;
+        height: 200vh;
     }
 
     #option {
@@ -363,11 +363,11 @@ form p a {
     }
 
     form {
-        height: 125vh;
+        height: 155vh;
     }
 
     header {
-        height: 150vh;
+        height: 220vh;
     }
 }
 
@@ -400,6 +400,52 @@ form p a {
 
     header {
         height: 150vh;
+    }
+
+    #option {
+        padding-left: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    
+    .move h3 {
+        font-size: 1.5rem;
+    }
+
+    .move p {
+        font-size: 1.1rem;
+    }
+
+    form input {
+        padding-right: 8rem;
+    }
+
+    form {
+        height: 160vh;
+        padding-left: 0;
+    }
+
+    header {
+        height: 200vh;
+    }
+
+    .button .account {
+        padding: 2.5rem 6rem;
+    }
+
+    .button .sign-up {
+        padding: 2.5rem 5.3rem;
+    }
+
+    .button .sign-up img {
+        left: 1.5rem;
+    }
+
+    #option {
+        padding-left: 1rem;
     }
 }
 

@@ -191,11 +191,11 @@ form input {
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
     
     form {
         width: 90vw;
-        height: 55vh;
+        height: 95vh;
     }
 
     .cover p {
@@ -203,12 +203,16 @@ form input {
     }
 
     form input {
-        width: 17vw;
+        width: 11vw;
         margin: 3rem 1rem;
     }
 
     .dummy-text button {
-        padding: 2rem 12rem;
+        padding: 2rem 10rem;
+    }
+
+    header {
+        height: 150vh;
     }
 }
 
@@ -236,11 +240,11 @@ form input {
 @media screen and (max-width: 375px) {
     
     form input {
-        width: 15vw;
+        width: 13vw;
     }
 
     form {
-        height: 70vh;
+        height: 90vh;
     }
 
     .dummy-text button {
@@ -261,5 +265,25 @@ form input {
 
     form input {
         width: 16vw;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    .cover p {
+        font-size: 1rem;
+    }
+
+    form {
+        height: 95vh;
+    }
+
+    form input {
+        width: 14vw;
+    }
+
+    .dummy-text button {
+        padding: 2rem 9rem;
     }
 }

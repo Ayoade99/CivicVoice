@@ -424,6 +424,20 @@ form label[for*="number"] {
 }
 
 
+
+@media screen and (max-width: 425px) {
+    
+    form {
+        height: 170vh;
+    }
+
+    header {
+        height: 250vh;
+    }
+
+}
+
+
 @media screen and (max-width: 390px) {
     
     .personal h3 {
