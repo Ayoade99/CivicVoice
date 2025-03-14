@@ -728,10 +728,10 @@ header {
 
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
      
      .bar-icon {
-          margin-left: 10rem;
+          margin-left: 15rem;
           padding-top: 3rem;
      }
 
@@ -744,6 +744,7 @@ header {
      }
 
      .candidates {
+          height: 160vh;
           width: 90vw;
      }
 
@@ -752,7 +753,7 @@ header {
      }
 
      .warren {
-          height: 17vh;
+          height: 25vh;
      }
 
      .warren input {
@@ -760,7 +761,7 @@ header {
      }
 
      .leslie {
-          height: 17vh;
+          height: 25vh;
      }
 
      .leslie input {
@@ -768,7 +769,7 @@ header {
      }
 
      .hawkins {
-          height: 17vh;
+          height: 25vh;
      }
 
      .hawkins input {
@@ -776,7 +777,7 @@ header {
      }
 
      .fox {
-          height: 17vh;
+          height: 25vh;
      }
 
      .fox input {
@@ -785,6 +786,10 @@ header {
 
      .candidates .button {
           margin-top: 21rem;
+     }
+
+     header {
+          height: 220vh;
      }
 
 }
@@ -831,4 +836,14 @@ header {
 
      
 }
+
+
+@media screen and (max-width: 320px) {
+
+     .bar-icon {
+          margin-left: 10rem;
+     }
+     
+}
+
 

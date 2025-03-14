@@ -523,6 +523,13 @@ header {
         margin-left: 0;
     }
 
+    .create button img {
+        display: none;
+    }
+
+    .create button a {
+        padding-right: 2rem;
+    }
     
 
 }
@@ -544,6 +551,8 @@ header {
     .create h3 {
         font-size: 2rem;
     }
+
+
 }
 
 @media screen and (max-width: 375px) {
@@ -552,6 +561,10 @@ header {
         margin-left: 0.5rem;
         width: 70vw;
         height: 60vh;
+    }
+
+    .create button a {
+        padding-right: 2rem;
     }
 }
 
@@ -573,8 +586,8 @@ header {
     }
 
     .create button a {
-        padding-left: 1rem;
-        padding-right: 5rem;
+        padding-left: 1.5rem;
+        padding-right: 2.5rem;
 
     }
 
