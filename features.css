@@ -1357,10 +1357,20 @@ footer {
 
 
 @media screen and (max-width: 375px) {
+
+     .bar-icon {
+          margin-left: 17rem;
+          padding-top: 2.5rem;
+     }
      
      .real h3 {
          font-size: 2rem;
      }
+
+     .real,.efficient {
+          height: 70vh;
+          left: 4rem;
+     } 
 
      .real p{
           font-size: 1rem;
@@ -1382,6 +1392,11 @@ footer {
           font-size: 1rem;
      }
 
+     .observer,.engagement {
+          height: 70vh;
+          left: 4rem;
+     }
+
      .engagement h3 {
           font-size: 2rem;
      }
@@ -1396,6 +1411,11 @@ footer {
 
      .secure p{
           font-size: 1rem;
+     }
+
+     .seamless,.secure {
+          height: 70vh;
+          left: 4rem;
      }
 
      .seamless h3 {

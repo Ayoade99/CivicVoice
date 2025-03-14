@@ -72,3 +72,76 @@ header {
     font-family: "Open Sans", serif;
     font-weight: 700;
 }
+
+
+/* Tablet Screen */
+
+
+@media screen and (max-width: 1024px) {
+    
+    .vote-submission {
+        width: 60vw;
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    
+    .vote-submission {
+        width: 70vw;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .vote-submission {
+        width: 75vw;
+        height: 60vh;
+    }
+    
+}
+
+
+@media screen and (max-width: 540px) {
+
+    .vote-submission {
+        width: 85vw;
+        height: 60vh;
+    }
+
+    .vote-submission h3 {
+        font-size: 2rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .vote-submission {
+        width: 95vw;
+        height: 60vh;
+    }
+
+    .vote-submission h3 {
+        font-size: 2rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .vote-submission {
+        width: 95vw;
+        height: 60vh;
+    }
+
+      
+    .vote-submission p {
+        font-size: 1.3rem;
+    }
+    
+}

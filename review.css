@@ -95,3 +95,111 @@ header {
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+
+/* Tablet Screen */
+
+@media screen and (max-width: 1024px) {
+    
+    .review {
+       width: 60vw;
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    
+    .review {
+        height: 27vh;
+        width: 70vw;
+    }
+
+    .review h2 {
+        height: 5vh;
+    }
+
+    .button  {
+        margin-right: 6.5rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .review {
+        height: 60vh;
+        width: 75vw;
+    }
+
+    .review h2 {
+        height: 12vh;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    
+    .review input{
+        padding-right: 20rem;
+    }
+
+    .review {
+        height: 50vh;
+        width: 85vw;
+    }
+
+    .review h2 {
+        height: 10vh;
+    }
+}
+
+
+/* Mobile Screen */
+
+
+
+@media screen and (max-width: 425px) {
+    
+    .review input{
+        padding-right: 13rem;
+    }
+
+    .review {
+        height: 65vh;
+        width: 90vw;
+    }
+
+    .review h2 {
+        height: 13vh;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    
+    .review input{
+        padding-right: 10rem;
+    }
+
+    .button {
+        margin-right: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .review input{
+        padding-right: 8rem;
+        margin-left: 1rem;
+    }
+
+    .review h3 {
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+
+    
+    
+}

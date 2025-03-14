@@ -1008,15 +1008,33 @@ header {
    }
 
    .whole {
-      width: 70vw;
+      width: 60vw;
+      height: 70vh;
    }
+
+   .whole div {
+      margin-left: 0;
+   }
+
+   .transparency {
+      height: 150vh;
+   }
+
 
    .participant #names {
       left: 6rem;
    }
 
+   .participant {
+      height: 20vh;
+   }
+
    .participant2 h2 img {
       left: 7rem;
+   }
+
+   .participant2 {
+      height: 20vh;
    }
 
    .participant2 #names {
@@ -1029,6 +1047,10 @@ header {
 
    .participant3 h2 img {
       left: 7rem;
+   }
+
+   .participant3 {
+      height: 20vh;
    }
 
    .participant3 #names {
@@ -1051,6 +1073,10 @@ header {
       right: 4rem;
    }
 
+   .participant4 {
+      height: 20vh;
+   }
+
    .participant5 h2 img {
       left: 7rem;
    }
@@ -1062,7 +1088,13 @@ header {
    .participant5 #pole {
       right: 4rem;
    }
+
+   .participant5 {
+      height: 20vh;
+   }
+
 }
+
 
 
 @media screen and (max-width: 320px) {
