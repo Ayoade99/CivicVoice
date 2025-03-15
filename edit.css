@@ -78,7 +78,16 @@ nav button img {
     margin-top: 1.4rem;
 }
 
+.bar-icon {
+    font-size: 4rem;
+    color: var(--blue);
+    display: none;
+    background: none;
+    border: none;
+}
+
 nav {
+    display: flex;
     height: 20vh;
 }
 
@@ -481,4 +490,226 @@ form label[for*="voters"] {
     border: none;
     margin-top: 2rem;
     border-radius: 10px;
+}
+
+
+/* Tablet Screen */
+
+@media screen and (max-width: 1024px) {
+
+    .navbars {
+        display: none;
+    }
+
+   .logo {
+       padding-right: 0; 
+    }
+
+   .bar-icon {
+        display: flex;
+        margin-left: 67rem;
+        padding-top: 3rem;
+    }
+
+   header {
+        height: 170rem;
+    }
+
+   .whole {
+        display: none;
+        border-right: none;
+        background-color: var(--deepblue);
+        position: absolute;
+        right: 1rem;
+        width: 30vw;
+        height: 50vh;
+        top: 99px;
+        padding: 2rem;
+        z-index: 1;
+    }
+
+   .whole a {
+        color: var(--white);
+        font-size: 1.5rem;
+    }
+
+   .whole div {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+   .whole p {
+         background: none;
+         width: 100%;
+    }
+
+   .whole img{
+        display: none;
+    }
+   
+   .show {
+        display: block;
+    }
+
+    nav {
+        height: 10vh;
+    }
+
+    .search {
+        display: none;
+    }
+
+    form #time {
+        margin-left: 0;
+    }
+
+    form #country {
+        margin-left: 0;
+    }
+
+    form #vote {
+        margin-left: 0;
+    }
+
+    form input {
+        padding-right: 40rem;
+    }
+
+    form label[for*="timezone"] {
+        position: absolute;
+        top: 13rem;
+        left: 0;
+    }
+    
+    form label[for*="gender"] {
+        position: absolute;
+        top: 27rem;
+        left: 0;
+    }
+    
+    form label[for*="country"] {
+        position: absolute;
+        top: 40rem;
+        left: 0;
+    }
+    
+    form label[for*="language"] {
+        position: absolute;
+        top: 54rem;
+        left: 0;
+    }
+    
+    form label[for*="voters"] {
+        position: absolute;
+        top: 68rem;
+        left: 0;
+    }
+       
+}
+
+
+@media screen and (max-width: 912px) {
+
+    .bar-icon {
+        margin-left: 47rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .bar-icon {
+        margin-left: 40rem;
+    }
+
+    .whole {
+        height: 55vh;
+    }
+    
+}
+
+
+@media screen and (max-width: 540px) {
+
+    .bar-icon {
+        margin-left: 25rem;
+    }
+
+    .logo {
+        padding-left: 2rem;
+    }
+
+    .whole {
+        width: 50vw;
+    }
+
+    form input {
+        padding-right: 25rem;
+    }
+    
+}
+
+
+/* Mobile Screen */
+
+@media screen and (max-width: 425px) {
+
+    .bar-icon {
+        margin-left: 19rem;
+        padding-top: 2.5rem;
+    }
+
+    .logo img {
+        width: 10rem;
+    }
+
+    form input {
+        padding-right: 15rem;
+    }
+
+    .edit-btn {
+        position: absolute;
+        top: 135rem;
+        left: 8rem;
+    }
+   
+}
+
+
+@media screen and (max-width: 375px) {
+
+
+    .whole {
+        width: 60vw;
+    }
+
+    form input {
+        padding-right: 10rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    .bar-icon {
+        margin-left: 13rem;
+    }
+
+    .whole {
+        right: 0;
+        width: 65vw;
+    }
+
+    form input {
+        padding-right: 8rem;
+    }
+
+    .flexbox2{
+        margin-left: 2rem;
+    }
+
+
 }

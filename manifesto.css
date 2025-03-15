@@ -153,3 +153,112 @@ header {
     left: 0;
     top: 0.5rem;
 }
+
+
+/* Tablet Screen */
+
+
+@media screen and (max-width: 912px) {
+    
+    .hero {
+        margin-left: 3rem;
+        height: 90vh;
+        width: 90vw;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        height: 200vh;
+        width: 95vw;
+        margin-left: 2rem;
+        margin-top: 10rem;
+    }
+
+    header {
+        height: 250vh;
+    }
+
+}
+
+
+@media screen and (max-width: 540px) {
+    
+    .hero {
+        height: 170vh;
+        width: 95vw;
+        margin-left: 1rem;
+        margin-top: 10rem;
+    }
+
+    .warren {
+        margin-top: 5rem;
+    }
+}
+
+
+/* Mobile Screen */
+
+@media screen and (max-width: 425px) {
+    
+    .hero {
+        height: 270vh;
+        width: 90vw;
+        margin-left: 1rem;
+        margin-top: 10rem;
+    }
+
+     header {
+        height: 300vh;
+     }
+
+    .warren {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .warren h3 {
+        position: absolute;
+        top: 17rem;
+        left: 2rem;
+    }
+
+    .warren h2 {
+        position: absolute;
+        top: 20rem;
+        left: 2rem;
+    }
+
+    .warren h4 {
+        position: absolute;
+        top: 25rem;
+        left: 2rem;
+    }
+
+    .warren p {
+        position: absolute;
+        top: 27rem;
+        left: 2rem;
+    }
+
+    .manifesto,.why-vote,.priorities {
+        margin-left: 2rem;
+    }
+     
+}
+
+
+@media screen and (max-width: 320px){
+    
+    .hero {
+        height: 300vh;
+        width: 95vw;
+        margin-left: 0.7rem;
+    }
+
+    header {
+        height: 350vh;
+    }
+}
