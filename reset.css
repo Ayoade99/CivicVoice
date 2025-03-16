@@ -221,7 +221,7 @@ form button {
 @media screen and (max-width: 375px) {
 
     form {
-        height: 40vh;
+        height: 60vh;
     }   
 
     form input {
@@ -236,29 +236,6 @@ form button {
 }
 
 
-@media screen and (max-width: 360px) {
-    
-    form input {
-        padding-right: 10rem;
-    }
-
-    form button {
-        padding: 2.5rem 10.5rem;
-    }
-}
-
-
-@media screen and (max-width: 344px) {
-    
-    .cover p {
-        font-size: 0.9rem;
-    }
-
-    form {
-        height: 45vh;
-    }
-}
-
 
 @media screen and (max-width: 320px) {
     
@@ -271,7 +248,7 @@ form button {
     }
 
     form {
-        height: 35vh;
+        height: 70vh;
     }   
 
     form input {
