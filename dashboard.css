@@ -6,6 +6,7 @@
  
 body {
      font-family: "Poppins", serif; 
+     overflow-x: hidden;
 }
  
 html {
@@ -27,15 +28,14 @@ html {
      --ash: #ECECEE;
 }
 
-.navbars {
+.navbar-list {
      display: flex;
      list-style: none;
+     margin-right: 3rem;
 }
 
 .logo {
-   padding-top: 4rem;
    padding-left: 4rem;
-   padding-right: 85rem;
 }
 
 .logo img {
@@ -43,7 +43,6 @@ html {
 }
 
 li {
-     padding-top: 4rem;
      padding-left: 0.7rem;
      padding-right: 0.7rem;
 }
@@ -87,10 +86,14 @@ nav button img {
 }
 
 nav {
-     display: flex;
-     height: 20vh;
+     height: 20vh;    
 }
 
+.navbars {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
 header {
      height: 120rem;
 }
@@ -657,18 +660,21 @@ header {
 
 @media screen and (max-width: 1024px) {
      
-     .navbars {
+     .navbar-list {
           display: none;
      }
 
      .logo {
          padding-right: 0; 
+         padding-left: 2rem;
      }
 
      .bar-icon {
           display: flex;
-          margin-left: 67rem;
-          padding-top: 3rem;
+     }
+
+     nav {
+          height: 10vh;
      }
 
      header {
@@ -682,7 +688,7 @@ header {
           position: absolute;
           right: 1rem;
           width: 30vw;
-          height: 30vh;
+          height: 50vh;
           top: 99px;
           padding: 2rem;
           z-index: 1;
@@ -709,7 +715,7 @@ header {
      }
      
      nav {
-          height: 10vh;
+          height: 20vh;
      }
 
      .show {
@@ -717,27 +723,27 @@ header {
      }
 
       .active {
-          height: 7vh;
+          height: 15vh;
           width: 27vw;
       }
 
       .polls {
-          height: 7vh;
+          height: 15vh;
           width: 27vw;
       }
 
       .history {
-          height: 7vh;
+          height: 15vh;
           width: 27vw;
       }
 
       .container {
-          height: 30vh;
+          height: 60vh;
           margin-left: 10rem;
       }
 
       .container-2 {
-          height: 30vh;
+          height: 60vh;
           margin-left: 10rem;
       }
 }
@@ -748,13 +754,29 @@ header {
      
      .bar-icon {
           display: flex;
-          margin-left: 50rem;
-          padding-top: 3rem;
      }
 
      .history {
           margin-right: 7rem;
+          height: 8vh;
      }
+
+     .active {
+          height: 8vh;
+     }
+
+     .polls {
+          height: 8vh;
+     }
+
+     header{
+          height: 200rem;
+     } 
+
+     .container,.container-2 {
+          height: 30vh;
+     }
+
 }
 
 
@@ -815,31 +837,37 @@ header {
 
 @media screen and (max-width: 768px) {
      
+     
+
      .history {
-          height: 9vh;
+          height: 18vh;
           width: 30vw;
      }
 
      .active {
-          height: 9vh;
+          height: 18vh;
           width: 30vw;
      }
 
      .polls {
-          height: 9vh;
+          height: 18vh;
           width: 30vw;
      }
 
      .container {
-          height: 40vh;
+          height: 75vh;
       }
 
      .container-2 {
-          height: 40vh;
+          height: 75vh;
      }
 
      .poll-station h3 {
           font-size: 2.5rem;
+     }
+
+     header {
+          height: 120rem;
      }
 }
 
@@ -863,7 +891,6 @@ header {
      }
 
      .bar-icon {
-          padding-top: 3.5rem;
           margin-left: 20rem;
      }
      
@@ -879,23 +906,23 @@ header {
      .history {
           margin: 0 0;
           width: 65vw;
-          height: 15vh;
+          height: 16vh;
      }
 
      .polls {
           margin: 3rem 0;
           width: 65vw;
-          height: 15vh;
+          height: 16vh;
      }
 
      .active {
           margin: 0 0;
           width: 65vw;
-          height: 15vh;
+          height: 16vh;
      }
 
      header {
-          height: 200rem;
+          height: 170rem;
      }
 
      .electoral h3 {
@@ -944,10 +971,10 @@ header {
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
      
      .whole {
-          height: 45vh;
+          height: 60vh;
      }
 
      .whole a {
@@ -961,21 +988,15 @@ header {
 
      .bar-icon {
           margin-left: 13rem;
-          padding-top: 3.5rem;
      }
 
      .logo {
           padding-left: 2rem;
      }
 
-     .container {
+     .container,.container-2 {
+          height: 80vh;
           width: 80vw;
-          margin-left: 4rem;
-     }
-
-     .container-2 {
-          width: 80vw;
-          height: 55vh;
           margin-left: 4rem;
      }
 
@@ -984,80 +1005,33 @@ header {
      }
 
      header {
-          height: 200rem;
+          height: 170rem;
      }
 } 
 
-
-@media screen and (max-width: 414px) {
-     
-
-     .electoral h3 {
-          font-size: 1.3rem;
-     }
-
-     .poll-station h3 {
-          font-size: 1.3rem;
-     }
-
-     .container6 {
-          margin-right: 0;
-     }
-
-     .active-polls h5 {
-          width: 15vw;
-     }
-
-     .inactive-polls h5 {
-          width: 18vw;
-     }
-
-     .approved h5 {
-          width: 19vw;
-     }
-
-     .pending h5 {
-          width: 19vw;
-     }
-}
-
-
-@media screen and (max-width: 390px) {
-
-     .whole {
-          width: 65vw;
-     }
-
-     .logo img {
-          width: 15rem;
-     }
-     
-     .name h3 {
-          padding-left: 3rem;
-     }
-}
 
 
 @media screen and (max-width: 375px) {
      
      .logo img {
-          width: 13rem;
+          width: 10rem;
      }
      
      .logo {
           padding-left: 1rem;
      }
 
-     .bar-icon {
-          padding-top: 3rem;
-     }
-
      .whole {
-          height: 55vh;
+          height: 65vh;
+          width: 55vw;
      }
 
-     .container {
-          height: 65vh;
+     .container,.container-2 {
+          height: 75vh;
+     }
+
+     header {
+          height: 150rem;
      }
 
      .button button {
@@ -1071,9 +1045,54 @@ header {
           right: 0.2rem;
           width: 2rem;
      }
+  
+}
 
-     .container-2 {
-          height: 65vh;
 
+@media screen and (max-width: 320px) {
+     
+     .name h3 {
+          font-size: 1.5rem;
+     }
+
+     .whole {
+          width: 70vw;
+     }
+
+     .flexbox2 h4 {
+          font-size: 1.5rem;
+     }
+
+     .active,.polls,.history {
+          width: 90vw;
+     }
+
+     .container,.container-2 {
+          width: 90vw;
+          margin-left: 1.5rem;
+     }
+
+     .active-polls h5 {
+          width: 30vw;
+     }
+
+     .inactive-polls h5 {
+          width: 30vw;
+     }
+
+     .button button {
+          padding-right: 3rem;
+          padding-left: 0.5rem;
+          font-size: 0.6rem;
+     }
+
+     .button button img {
+          top: 0.2rem;
+          right: 0.2rem;
+          width: 2rem;
+     }
+
+     .poll-station h3 {
+          font-size: 1.2rem;
      }
 }

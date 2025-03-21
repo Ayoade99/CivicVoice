@@ -6,6 +6,7 @@
  
 body {
      font-family: "Poppins", serif; 
+     overflow-x: hidden;
 }
  
 html {
@@ -37,13 +38,12 @@ html {
      color: var(--lightblue);
      font-size: 1.4rem;
      font-weight: 600;
-     padding: 2.5rem 2rem;
+     padding: 0 2rem;
 }
  
 .logo {
-     margin-right: 30rem;
+     margin-right: 10rem;
      margin-left: 3rem;
-     padding-top: 2rem;
 }
  
 #aboutus {
@@ -52,7 +52,6 @@ html {
  
 .btn {
      margin-left: 20rem;
-     margin-top: 1.5rem;
 }
  
 .btn a {
@@ -65,7 +64,6 @@ html {
      font-size: 1.5rem;
      border: none;
      font-weight: bold;
-     margin-top: 1rem;
 }
  
 .btn .login {
@@ -91,6 +89,12 @@ html {
     background: none;
     border: none;
 } 
+
+.navbars {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 nav {
     height: 15vh;
@@ -468,8 +472,8 @@ footer {
 @media screen and (max-width: 1024px) {
     
     .logo {
-        margin-left: 6rem;
-        padding-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 0;
     }
 
    .btn {
@@ -482,7 +486,6 @@ footer {
     }
 
    .bar-icon {
-        padding-top: 3rem;
         display: flex;
         margin-left: 40rem;
     }
@@ -626,31 +629,31 @@ footer {
     
     .bar-icon {
         margin-left: 30rem;
-   }
+    }
 
-   .btn {
+    .btn {
         margin-left: 8rem;
-   }
+    }
 
-   header {
+    header {
        height: 170vh;
-   }
+    }
 
-   .user2 {
+    .user2 {
        margin: 5rem 0;
-   }
+    }
 
-   .two {
+    .two {
       height: 200rem;
-   }
+    }
 
-   #email {
+    #email {
        padding-right: 60rem;
-   }
+    }
 
-   .stay button {
+    .stay button {
        padding: 2rem 35.6rem;
-   }
+    }
 }
 
 
@@ -762,6 +765,7 @@ footer {
      .btn .get {
         background: none;
         color: var(--blue);
+        padding: 0 2rem;
      }
 
     .intro-text p {
