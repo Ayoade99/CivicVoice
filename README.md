@@ -1,0 +1,1 @@
+CivicVoice is my final capstone project at Vephla institute and I took part in this project as the only frontend engineer, other team members include project/product manager, product designers and data analyst.  CivicVoice is a platform that guarantee that users can vote in an election or organization with maximum security and transparency. 
